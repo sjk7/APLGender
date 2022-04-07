@@ -1,0 +1,964 @@
+2am	M/F
+38 Special	M
+5 Star	M/F
+A Flock Of Seagulls	M
+A Taste Of Honey	F
+Abba	M/F
+ABC	M
+AC/DC	M
+Adam And The Ants	M
+Adam Ant	M
+Adam Faith	M
+Adamski	M
+Adrian Gurvitz	M
+Adventures	M
+Advert:	M/F
+Aerosmith	M
+After The Fire	M
+Aha	M
+Aidan Moffat	M
+Air Supply	M
+Al Green With Annie Lennox	M/F
+Al Jarreau	M
+Alan Parsons Project	m
+Alannah Myles	F
+Alarm	M
+Aldo Nova	M
+Aled Jones	M
+Alexander O'neal	M
+Alexander O'neal And Cherelle	M/F
+Alfie Zappacosta	M
+Alice Cooper	M
+Alison Moyet	F
+All About Eve	M/F
+Alphaville	M
+Altered Images	M
+Alvin and the Chipmunks	M
+Amazulu	F
+America	M
+Amii Stewart	F
+Amy Grant	F
+Andrew Gold	M
+Aneka	F
+Animal Nightlife	M
+Animotion	M
+Anita Baker	F
+Annie Lennox & Al Green	M/F
+Arcadia	M
+Aretha Franklin	F
+Aretha Franklin/george Michael	M/F
+Art Of Noise Ft Max Headroom	M
+Ash	M
+Ashford And Simpson	M/F
+Asia	M
+Aswad	M
+Atlantic Starr	M/F
+Audioenhance	M
+Audioenhance Tease Commercial	M
+Automatic	M
+Average White Band	M
+Axel F	M
+Aztec Camera	M
+B52s	M/F
+Babys	M
+Bad English	M
+Baltimora	M
+Bananarama	F
+Bananarama   [Partymix]	F
+Band Aid	M/F
+Bangles	F
+Barbara Dickson	F
+Barbra Streisand	F
+Barry Manilow	M
+Barry White	M
+Bb & Q Band	M/F
+Be A Part Of 80splanet	M
+Beach Boys	M
+Beat	M
+Beatfreakz	M
+Beatles	M
+Beatmasters	M/F
+Beautiful South	M/F
+Bee Gees	M
+Belinda Carlisle	F
+Bellamy Brothers	M
+Belle Stars	F
+Belouis Some	M
+Benny Hill	M
+Berlin	F
+Bertie Higgins	M
+Bette Midler	F
+Beverly Craven	F
+Bible	M
+Big Audio Dynamite	M
+Big Country	M
+Big Fun	M
+Big Sound Authority	M
+Bill Medley And Jennifer Warnes	M/F
+Billy Idol	M
+Billy Joel	M
+Billy Ocean	M
+Billy Preston And Syreeta	M/F
+Billy Squier	M
+Bjork	F
+Black	M
+Black Box	F
+Black Lace	M
+Blackfoot	M
+Blancmange	M
+Blondie	m/f
+Blow Monkeys	M
+Blue Mercedes	M
+Blue Nile	M
+Bluebells	M
+Blues Brothers	M
+Bob B Soxx And The Blue Jeans	M
+Bob Marley	M
+Bob Seger	M
+Bob Seger And The Silver Bullet Band	M
+Bob The Builder	M
+Bobby Boris Pickett & The Crypt Kickers	M
+Bobby Brown	M
+Bobby Mcferrin	M
+Bomb The Bass [PartyMix]	M/F
+Bon Jovi	M
+Boney M	M/F
+Bonnie Raitt	F
+Bonnie Tyler	F
+Boogie Box High	M
+Boomtown Rats	M
+Boris Gardiner	M
+Boston	M
+Bourgeois Tagg	M
+Bow Wow Wow	F
+Boy George	M
+Boy Meets Girl	m/F
+Boys Dont Cry	M
+Bread	M
+Break Machine	M
+Breakfast Club	M
+Breathe	M
+Brenda Lee	F
+Brenda Russell	F
+Brian May	M
+Broken English	M
+Bronski Beat	M
+Bros	M
+Brother Beyond	M
+Brothers Johnson	M
+Bruce Hornsby	M
+Bruce Hornsby And The Range	M
+Bruce Springsteen	M
+Bruce Willis	M
+Bryan Adams	M
+Bryan Adams And Tina Turner	M/F
+Bryan Ferry	M
+Bryan Ferry And Roxy Music	M
+Bucks Fizz	M/F
+Buggles	M/F
+Buzzcocks	M
+Cameo	M
+Cameo   [PartyMix]	M
+Captain & Tennille	M/F
+Captain Sensible	M
+Carly Simon	F
+Carmel	F
+Carpenters	M/F
+Cars	M
+Cathy Dennis	F
+Celine Dion	F
+Cerrone	F
+Chaka Khan	F
+Champaign	M/F
+Change	M
+Charlene	F
+Charlie Daniels Band	M
+Charlie Dore	F
+Chas N Dave	M
+Cheap Trick	M
+Cher	F
+Cherrelle And Alexander O'neal	m/f
+Chesney Hawkes	M
+Chic	F
+Chicago	M
+Chilliwack	M
+China Crisis	M
+Chris De Burgh	M
+Chris Isaak	M
+Chris K	M
+Chris Rea	M
+Christians	M
+Christina Aguilera	F
+Christine McVie	F
+Christopher Cross	M
+Church	M
+Clannad	F
+Clash	M
+Cliff Richard	M
+Cliff Richard & The Young Ones	M
+Cliff Richard And Olivia Newton John	M/F
+Cliff Richard And Phil Everly	M
+Climie Fisher	M
+Club Nouveau	M
+Cock Robin	M
+Coldcut Feat Yazz	m/f
+Coldplay	M
+Colonel Abrams	M
+Colourfield	M
+Commodores	M
+Communards	M
+Corey Hart	M
+Corey Heart	M
+Crowded House	M
+Crown Heights Affair	M
+Cult	M
+Culture Club	M
+Cure	M
+Curiosity Killed The Cat	M
+Cutting Crew	M
+Cyndi Lauper	F
+D Train	M
+Damian	M
+Damned	M
+Dan Fogelberg	M
+Dan Hartman	M
+Dana	F
+Dannii Minogue	F
+Danny Wilson	M
+Darlene Love	F
+Daryl Hall	M
+Dave Edmunds	M
+Dave Stewart	M
+Dave Stewart & Barbara Gaskin	M/f
+Dave Stewart Ft. Candy Dulfer	m/f
+David Bowie	M
+David Bowie And Mick Jagger	M
+David Bowie with Bing Crosby	M
+David Essex	M
+David Lee Roth	M
+Deacon Blue	M
+Dead Or Alive	M
+Dean Martin	M
+Debarge	M
+Debbie Gibson	F
+Debbie Harry	F
+Dee C Lee	F
+Def Leppard	M
+Del Amitri	M
+Deniece Williams	F
+Depeche Mode	M
+Desireless	F
+Detroit Spinners	M/F
+Devo	F
+Dexys Midnight Runners	M
+Dhar Braxton	F
+Diana Ross	F
+Diana Ross And Lionel Richie	M/F
+Dionne Warwick	f
+Dionne Warwick And Friends	M/F
+Dionne Warwick, Geoffrey Osbourne	M/F
+Dire Straits	M
+Doctor & The Medics	M
+Dollar	M/F
+Dolly Parton	F
+Don Henley	M
+Don Henley And Bruce Hornsby	M
+Don Johnson	M
+Donald Fagan	M
+Donald Fagen	M
+Donna Allen	F
+Donna Summer	F
+Doobie Brothers	M
+Double	M
+Dr And The Medics	M
+Dr. Hook	M
+Dream Academy	M/F
+Duran Duran	M
+Dusty Springfield	F
+E L O	M
+Eagles	M
+Earth Wind And Fire	M/F
+Eartha Kitt	F
+Echo And The Bunnymen	M
+Eddie Grant	M
+Eddie Money	M
+Eddie Murphy & Rick James	M
+Eddie Rabbitt	M
+Eddy Grant	M
+Edie Brickell And New Bohemians	F
+Edie Brickell And The New Bohemians	F
+Eighth Wonder	F
+El Debarge	M
+Elaine Paige & Barbara Dickson	F
+Electric Light Orchestra	M
+Electronic	M
+Elkie Brooks	F
+Elton John	M	
+Elvis Costello	M
+England Dan & John Ford Coley	M
+Enya	F
+Erasure	M
+Eric Carmen	M
+Eric Clapton	M
+Escape Club	M
+Europe	M
+Eurythmics	M/F
+Eva Cassidy	F
+Evelyn 'champagne' King	F
+Evelyn Thomas	F
+Everything But The Girl	M/F
+Expose	F
+Exposé	F
+F.R. David	M
+Fairground Attraction	M/F
+Faith No More	M
+Falco	M
+Far Corporation	M
+Fat Larrys Band	M
+Fatback Band	M
+Fatboys	M
+Feargal Sharkey	M
+Female 80s	F
+Female Best 80s	F
+Female Drop	F
+Female Vo	F
+Female Whisper?	F
+Fern Kinney	F
+Fiction Factory	M
+Fine Young Cannibals	M
+Five Star	M/F
+Fixx	M
+Flash And The Pan	M
+Fleetwood Mac	M/F
+Flock Of Seagulls	M
+Flying Lizards	M/F
+Flying Pickets	M
+Force Md's	M
+Foreigner	M
+Forrest	M/F
+Four Tops	M
+France Gall	F
+Frankie Goes To Hollywood	M
+Freddie Mcgregor	M
+Freddie Mercury	M
+Freeez	M/F
+Freeeze	M/F
+Freiheit	M
+Frida	F
+FSN	F
+Fun Boy Three	M
+Gap Band	M
+Gary Brooker	M
+Gary Byrd And The Gb Experience	M
+Gary Moore	M
+Gary Numan	M
+Gary US Bonds	M
+Gaz	M
+Gaz Dry	M
+Generic Costingless	M
+Genesis	M
+George Benson	M
+George Harrison	M
+George Michael	M
+George Thorogood	M
+Gerry Rafferty	M
+Giorgio Moroder With Philip Oakey	M
+Gladys Knight	F
+Glass Tiger	M
+Glen Goldsmith	M
+Glen Medeiros	M
+Glenn Frey	M
+Gloria Estefan	F
+Gloria Estefan And Miami Sound Machine	F
+Gloria Gaynor	F
+Go Go's	F
+Go Gos	F
+Go West	M
+Go-Go's	F
+Godley & Creme	M
+Golden Earring	M
+Gordon Lightfoot	M
+Grace Jones	F
+Graham Bonnet	M
+Grandmaster Flash	M
+Greedies	M
+Greg Kihn	M
+Greg Kihn Band	M
+Gregory Abbott	M
+Grover Washington Jr. & Bill Withers	M
+Gtr	M
+Guns N' Roses	M
+Gwen Guthrie	F
+Gwen Guthrie   [partymix]	F
+Haircut 100	M
+Hall & Oates	M
+Hall And Oates	M
+Halloween	M
+Halo James	M
+Happy Mondays	M
+Harold Faltermeyer	M
+Harry Chapin	M
+Harry Chorale Simeone	M/f
+Harry Simeone Chorale	M/f
+Haywoode	F
+Hazel O'connor	F
+Hazell Dean	F
+Heart	F
+Heart Of Ice	M/F
+Heaven 17	M
+Herbie Hancock	M
+Hipsway	M
+Hoddle And Waddle	M
+Holly Johnson	M
+Hollywood Beyond	M
+Home Alone Ii	M
+Honeydrippers	M
+Hooters	M
+Hot Chocolate	M
+Hothouse Flowers	M
+Housemartins	M
+Howard Jones	M
+Hue And Cry	M
+Huey Lewis & The News	M
+Huey Lewis And The News	M
+Human League	M
+Ian Dury & The Blockheads	M
+Icehouse	M
+Iggy Pop	M
+Imagination	M
+Indeep	M
+Information Society	M
+Inner City	M/F
+Innoncence Mission	M
+Inspiral Carpets	M
+Inxs	M
+Irene Cara	F
+Iron Maiden	M
+Isley Brothers	M
+It Bites	M
+It's Immaterial	M
+J . J. Cale	M
+J Geils Band	M
+J. Geils Band	M
+Jackson 5	M
+Jackson Browne	M
+Jacksons	M
+Jaki Graham	F
+Jaki Graham And David Grant	M/F
+Jam	M
+James Brown	M
+James Ingram And Patti Austin	M
+James Ingram With Michael Mcdonald	M/F
+Jane Wiedlin	F
+Janet Jackson	F
+Japan	M
+Jason Donovan	M
+Jefferson Starship	M/F
+Jeffrey Osborne	M
+Jellybean And Adele Bertel	F
+Jellybean And Elisa Fiorillo	F
+Jellybean And Steven Dante	F
+Jennifer Rush	F
+Jermaine Jackson	M
+Jermaine Stewart	M
+Jerry Lee Lewis	M
+Jets	F
+Jim Diamond	M
+Jimmy Somerville	M
+Jingle	F
+Joan Armatrading	F
+Joan Armtrading	F
+Joan Jett	F
+Joboxers	M
+Jocelyn Brown	F
+Jody Watley	M
+Joe Cocker	M
+Joe Cocker And Jennifer Warnes	M/F
+Joe Jackson	M
+John Cafferty	M
+John Cougar Mellencamp	M
+John Farnham	M
+John Lennon	M
+John Parr	M
+John Waite	M
+Johnny Clegg & Savuka	M
+Johnny Hates Jazz	M
+Jon And Vangelis	M
+Jon Bon Jovi	M
+Jon Secada	M
+Jona Lewie	M
+Jonathan Butler	M
+Joni Mitchell	F
+Journey	M
+Joy	F
+Joy Division	M
+Joyce Sims	F
+Judie Tzuke	F
+Judy Tzuke	F
+Juice Newton	F
+Julia Fordham	F
+Julian Cope	M
+Julian Lennon	M
+Junior	M
+K.c. & The Sunshine Band	M
+Kajagoogoo	M
+Kane Gang	M
+Karel Fialka	M
+Karyn White	F
+Kate Bush	F
+Katrina & The Waves	F
+Katrina And The Waves	F
+Kc And The Sunshine Band	M
+Keith Marshall	M
+Keith Sweat	M
+Kelly  Marie	F
+Kelly Marie	F
+Kenny Loggins	M
+Kenny Rogers	M
+Kenny Rogers & Dolly Parton	M/F
+Kenny Rogers & Sheena Easton	M/F
+Kfm Xmas Hour Opener	M
+Kid Creole And The Coconuts	M
+Kids From Fame	M/F
+Kiki Dee	F
+Killing Joke	M
+Kim Carnes	F
+Kim Wilde	F
+King	M
+Kinks	M
+Kirsty Maccoll	F
+Kiss	M
+Kissing The Pink	M/F
+Klf (the Timelords)	M
+Knack	M
+Kool & the Gang	M
+Kool And The Gang	M
+Korgis	M
+Kraftwerk	M
+Krush	M/F
+Kylie Minogue	F
+Kylie Minogue And Jason Donovan	M/F
+Labi Siffre	M
+Laid Back	M
+Landscape	M
+Latin Quarter	M
+Laura Branigan	F
+Led Zeppelin	M
+Leo Sayer	M
+Leon Haywood	M
+Level 42	M
+Lil Louis And Josh Wink	M
+Limahl	M
+Linda Ronstadt & James Ingram	m/f
+Lindsey Buckingham	M
+Linx	M
+Lionel Richie	M
+Lipps Inc	F
+Liquid Gold	F
+Lisa Lisa & Cult Jam	F
+Lisa Stansfield	F
+Lita Ford	F
+Little Steven	M
+Living In A Box	M
+Liza Minnelli	F
+Lloyd Cole & The Commotions	M
+Lloyd Cole And The Commotions	M
+Londonbeat	M
+Look	M
+Loose Ends	M/F
+Lotus Eaters	M/F
+Love And Rockets	M
+Loverboy	M
+Luther Vandross	M
+Lynyrd Skynyrd	M
+M	M
+Mac Band	M
+Madness	M
+Madonna	F
+Magnum	M
+Mai Tai	F
+Maisonettes	M/F
+Malcolm Mclaren	M
+Malcom Mclaren	M
+Mantronix	M/F
+Mari Wilson	F
+Maria Mckee	F
+Maria Vidal	F
+Mariah Carey	F
+Marillion	M
+Marilyn	M
+Martha And The Muffins	M/F
+Martika	F
+Marvin Berry And The Starlighters	M
+Marvin Gaye	M
+Matt Bianco	M
+Matthew Wilder	M
+Maxi Priest	M
+Mcfadden & Whitehead	M
+Meat Loaf	M
+Mel And Kim	F
+Mel Brooks	M
+Melanie Thornton	F
+Melissa Manchester	F
+Men At Work	M
+Men Without Hats	M
+Mental As Anything	M
+Mica Paris	F
+Michael Bolton	M
+Michael Bublé	M
+Michael Jackson	M
+Michael Jackson & Mick Jagger	M
+Michael Jackson & Paul Mccartney	M
+Michael Mcdonald	M
+Michael Mcdonald With Patti Labelle	M/F
+Michael Penn	M
+Michael Sambello	M
+Michelle Shocked	F
+Mick Jagger	M
+Midge Ure	M
+Midnight Oil	M
+Mighty Wah!	M
+Mike And The Mechanics	M
+Mike Oldfield	M/F
+Milli Vanilli	M
+Mister Mister	M
+Modern Talking	M
+Monsoon	F
+Moody Blues	M
+Morrissey	M
+Motley Crue	M
+Moving Pictures	M
+Mr Big	M
+Mr Mister	M
+Mtume	F
+Murray Head	M
+Musical Youth	M
+Naked Eyes	M
+Narada Michael Walden	M
+Natalie Cole	F
+Neil	M
+Neil Diamond	M
+Nena	F
+Neneh Cherry	F
+New Edition	M
+New Kids On The Block	M
+New Musik	M
+New Order	M
+News in	M
+Nick Berry	M
+Nick Heyward	M
+Nick Kamen	M
+Nick Lowe	M
+Night Ranger	M
+Nik Heyward	M
+Nik Kershaw	M
+Nina Simone	F
+No Audio In This Category	F
+now playing online xmas DRY.mp3	M
+Odyssey	M/F
+Oh Well	M
+Oingo Boingo	M
+Oliver Cheatham	M
+Olivia Newton John	F
+Olivia Newton John / Elo	M/F
+Ollie & Jerry	M
+Omd	M
+One 2 Many	M/F
+Only Vip Listeners Dry	M
+Oran Juice Jones	M
+Orange Juice	M
+Orchestral Manoeuvres In The Dark	M
+Outfield	M
+Owen Paul	M
+Ozzy Osbourne & Lita Ford	M/F
+Ozzy Ozborne	M
+Ozzy Ozbourne	M
+Pasadenas	M
+Passions	M/F
+Pat Benatar	F
+Patrice Rushen	F
+Patrick Swayze	M
+Pattie Labelle With Michael Mcdonald	M/F
+Paul Carrack	M
+Paul Davis	M
+Paul Hardcastle	M
+Paul Mccartney	M
+Paul Simon	M
+Paul Young	M
+Paula Abdul	F
+Peaches And Herb	M/F
+Pebbles	F
+Pepsi And Shirlie	F
+Pet Shop Boys	M
+Pete Townsend	M
+Pete Wylie	M
+Peter Cetera	M
+Peter Cetera & Amy Grant	M/F
+Peter Gabriel	M
+Peter Gabriel Kate Bush	M/f
+Peter Schilling	M
+Phd	M
+Phil Collins	M
+Phil Fearon & Galaxy	M/F
+Phil Fearon And Galaxy	M/F
+Phil Spector	F
+Phyllis Nelson	F
+Pil (public Image Limited)	M
+Pink Floyd	M
+Pinkees	M
+PIPS	M
+Piranhas	M
+Pogues And Kirsty Maccoll	M/F
+Pointer Sisters	F
+Poison	M
+Police	M
+Powerstation	M
+Prefab Sprout	M
+PRESENT FAIRY commericalgen.mp3	F
+Pretenders	M
+Pretty Poison	F
+Primitives	F
+Prince	M
+Princess	F
+Proclaimers	M
+Propaganda	F
+Pseudo Echo	F
+Psychedelic Furs	M
+Pure Prairie League	M
+Quarterflash	M
+Queen	M
+Quincy Jones	M
+Rah Band	F
+Rainbow	M
+Rainmakers	M
+Ramones	M
+Randy Crawford	F
+Randy Vanwarmer	M
+Ray Parker Jnr	M
+Ray Parker Jr.	M
+Re-flex	M
+Red Box	M
+Redbone	M
+REM	M
+REO Speedwagon	M
+Richard Marx	M
+Rick Astley	M
+Rick Springfield	M
+Ricky Lee Jones	F
+Rihanna	F
+Rita Coolidge	F
+Roachford	M
+Robbie Nevil	M
+Robbie Williams	M
+Robert Howard / Kym Mazelle	M/F
+Robert Palmer	M
+Robert Plant	M
+Robin Beck	M
+Rockers Revenge	M
+Rockwell	M
+Rocky Horror Picture Show	m/f
+Rocky Soundtrack	M
+Rod Stewart	M
+Rod Stewart And Ronald Isely	M
+Rolling Stones	M
+Roman Holliday	M
+Romantics	M
+Rosie Vela	F
+Roxette	M/F
+Roxy Music	M	
+Roy Orbison	M
+Royal Philharmonic Orchestra	F
+Rufus And Chaka Khan	M/F
+Run Dmc And Aerosmith	M
+Rupert Holmes	M
+Rush	M
+Ryan Paris	M
+Sabrina	F
+Sad Cafe	M
+Sade	F
+Sam Brown	F
+Samantha Fox	F
+Scarlet Fantastic	F
+Scritti Politti	M
+Sergio Mendes	M/F
+Sexpress	F
+Shakatak	F
+Shakatak with Al Jarreau	M/F
+Shakespear's Sister	F
+Shakin Stevens	M
+Shakin' Stevens	M
+Shalamar	M/F
+Shannon	F
+Sharon Redd	F
+Sharpe And Numan	M
+Sheena Easton	F
+Sheriff	M
+Sherrick	M
+Sheryl Crow	F
+Sidney Youngblood	M
+Sigue Sigue Sputnik	M
+Simple Minds	M
+Simply Red	M
+Sinead O' Connor	F
+Sinead O'connor	F
+Sinitta	F
+Siouxsie And The Banshees	F
+Sister Sledge	F
+Slade	M
+Sly Fox	M
+Smiths	M
+Smokey Robinson	M
+Sniff And The Tears	M
+Snowy White	M
+Soft Cell	M
+Sonia	F
+Sos Band	F
+Soul I I  Soul	M/F
+Soul I I Soul Feat. Caron Wheeler	F
+Soul Ii Soul	M/F
+Soul Ii Soul Feat. Caron Wheeler	F
+Spagna	F
+Spandau Ballet	M
+Spear Of Destiny	M
+Specials	M
+Split Enz	M
+Squeeze	M
+Stan Meissner	M
+Stan Ridgway	M
+Stars On 45	M/F
+Starship	M/F
+Status Quo	M
+Steely Dan	M
+Stephanie Mills	F
+Stephen 'Tin Tin' Duffy	M
+Stephen Tin Tin Duffy	M
+Steve Arrington	M
+Steve Dry	M
+Steve Earle	M
+Steve Forbert	M
+Steve Miller Band	M
+Steve V/o	M
+Steve Winwood	M
+Stevie Nicks	F
+Stevie Nicks And Tom Petty	M/F
+Stevie Wonder	M
+Stevie Wonder With Paul Mccartney	M
+Sting	M
+Stock/aitken/waterman	M/F
+Stranglers	M
+Strawberry Switchblade	F
+Stray Cats	M
+StreamTheNet	M
+Style Council	M
+Styx	M
+Sugarhill Gang	M
+Supertramp	M
+Support Drop + Request	M
+Survivor	M
+Susan Fassbender	F
+Susanna Hoffs	F
+Suzanne Vega	F
+Suzi Quatro With Chris Norman	M/F
+Swing Out Sister	F
+Sydney Youngblood	M
+System	m/F
+T'pau	F
+Taco	M
+Taja Sevelle	F
+Talk Talk	M
+Talking Heads	M
+Tanita Tikaram	F
+Taylor Dayne	F
+Teardrop Explodes	M
+Tears For Fears	M
+Temptations	M
+Tenpole Tudor	M
+Terrence Trent D'arby	M
+Texas	F
+The Carpenters	M/F
+The Jets	F
+THE NOLANS	F
+The Tubes	M
+The Waitresses	F
+Theme	F
+Then Jericho	M
+Then Jerico	M
+They Might Be Giants	M
+Thin Lizzy	M
+this is a kfm xmas specialDRY.mp3	M
+Thomas Dolby	M
+Thompson Twins	M
+Tiffany	F
+Tight Fit	M/F
+Til Tuesday	F
+Timbuk 3	M
+Time	M
+Timex Social Club	M
+Tina Turner	F
+Tom Johnston	M
+Tom Jones	M
+Tom Petty	M
+Tom Robinson	M
+Tom Tom Club	F
+Tommy Tutone	M
+Tone Loc	M
+Toni Basil	F
+Tori Amos	F
+Total Contrast	M
+Toto	M
+Tourists	M/F
+Toyah	F
+Tracey Ullman	F
+Tracy Chapman	F
+Transvision Vamp	F
+Travelling Wilburys	M
+Trio	M
+Tubes	M
+Tubeway Army	M
+U2	M
+Ub 40	M
+Ub 40 And Chrissie Hynde	M/F
+Ub 40 And Robert Palmer	M
+UB40	M
+Ultravox	M
+Undertones	M
+Van Halen	M
+Vanessa Paradis	F
+Vapors	M
+Vesta Williams	F
+Village People	M
+Visage	M/F
+Voice Of The Beehive	F
+Wang Chung	M
+Warren Zevon	M
+Was Not Was	M
+Waterboys	M
+Waterfront	M
+Wavelength	M
+Wax	M
+Weather Girls	F
+Well Well Well	M
+Westworld	M/F
+Wet Wet Wet	M
+Wham	M
+Wham!	M
+When In Rome	M
+Whispers	M
+Whitesnake	M
+Whitney Houston	F
+Who	M
+Will Downing	M
+Will Powers	M/F
+Will To Power	M/F
+Windjammer	M
+Womack & Womack	M/F
+Womack And Womack	M/F
+xmas rock and popDRY.mp3	M
+Xmas-southpark	M
+Xtc	M
+Yazoo	m/f
+Yazz	F
+Yazz And The Plastic Population	F
+Yello	M
+Yes	M
+Zz Top	M
