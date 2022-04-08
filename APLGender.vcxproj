@@ -162,6 +162,8 @@
     <ClCompile Include="APLGender.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\utils\dirent.h" />
+    <ClInclude Include="..\..\..\utils\file_iterator.hpp" />
     <ClInclude Include="..\..\..\utils\gender.hpp" />
     <ClInclude Include="..\..\..\utils\my_assert.hpp" />
     <ClInclude Include="..\..\..\utils\my_delim_file.hpp" />

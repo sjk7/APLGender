@@ -1,3 +1,4 @@
+N 00:00:00 *** Gender conditioned ***|||Fri Apr  8 22:06:29 2022	
 N 00:00:00 New Hour Starts - Hour 00			
 N 00:00:00 **CLOCK: obvious.clk **		
 N 00:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY		
@@ -5,23 +6,23 @@ N 00:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 00:00:06	Michael Jackson	The Way You Make Me Feel	20	4:44	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Michael Jackson - The Way You Make Me Feel.mp3
 00:04:55	Patrick Swayze	She's Like The Wind	15	3:38	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Patrick Swayze - She's Like The Wind.mp3
 00:08:37	Bon Jovi	Livin' On A Prayer	23	3:32	1986	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Bon Jovi - Livin' On A Prayer.mp3
-00:12:14	Dire Straits	Money For Nothing	0	3:57	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1	\Dire Straits - Money For Nothing.mp3
-00:16:16	Pat Benatar	We Belong	8	3:27	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Pat Benatar - We Belong.mp3
+00:59:59	THE NOLANS	I'M IN THE MOOD FOR DANCING	0	2:59	0	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\THE NOLANS - I'M IN THE MOOD FOR DANCING.mp3
+00:24:20	Joe Jackson	Steppin' Out	25	4:01	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Joe Jackson - Steppin' Out.mp3
 00:19:47	Michael Mcdonald With Patti Labelle	On My Own	21	4:26	1986	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael McDonald with Patti Labelle - On My Own.mp3
 00:24:18	Female Whisper?	80splanet Dot Com	0	0:02	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female Whisper - 80splanet Dot Com.mp3
-00:24:20	Joe Jackson	Steppin' Out	25	4:01	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Joe Jackson - Steppin' Out.mp3
-00:28:26	Tom Petty	Free Falling	11	4:01	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Tom Petty - Free Falling.mp3
-00:32:31	Musical Youth	Pass The Dutchie	2	3:13	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Musical Youth - Pass The Dutchie.MP3
-00:35:48	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
-00:35:50	Wham	Edge Of Heaven	13	4:20	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Wham - Edge Of Heaven.mp3
 00:40:16	Queen	Under Pressure	21	3:42	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Queen - Under Pressure.mp3
-00:44:02	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 00:44:06	Frida	I Know There's Something Going On	9	3:55	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Frida - I Know There's Something Going On.mp3
 00:48:05	Bruce Springsteen	Born In The USA	18	4:22	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bruce Springsteen - Born In The USA.mp3
+00:35:48	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
+00:12:14	Dire Straits	Money For Nothing	0	3:57	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1	\Dire Straits - Money For Nothing.mp3
+00:16:16	Pat Benatar	We Belong	8	3:27	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Pat Benatar - We Belong.mp3
+00:44:02	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
+00:28:26	Tom Petty	Free Falling	11	4:01	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Tom Petty - Free Falling.mp3
+00:32:31	Musical Youth	Pass The Dutchie	2	3:13	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Musical Youth - Pass The Dutchie.MP3
 00:52:33	Hall And Oates	I Can't Go For That (No Can Do)	26	3:32	1982	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Hall And Oates - I Can't Go For That (No Can Do).mp3
 00:56:09	Pointer Sisters	I'm So Excited	32	4:41	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Pointer Sisters - I'm So Excited.mp3
 N 00:59:59 ** EXTRA SONGS FOR TIMEOUT **		
-00:59:59	THE NOLANS	I'M IN THE MOOD FOR DANCING	0	2:59	0	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\THE NOLANS - I'M IN THE MOOD FOR DANCING.mp3
+00:35:50	Wham	Edge Of Heaven	13	4:20	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Wham - Edge Of Heaven.mp3
 00:59:59	Roxette	Dressed For Success	0	4:01	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Roxette - Dressed For Success.mp3
 00:59:59	Robin Beck	First Time	7	3:08	1988	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\2\Opener	\ROBIN BECK - FIRST TIME.mp3
 N 01:00:00 New Hour Starts - Hour 01			
@@ -39,42 +40,42 @@ N 01:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 01:25:29	U2	With Or Without You	26	4:40	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1	\U2 - With or Without You.mp3
 01:30:15	Paul Simon	You Can Call Me Al	15	4:28	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Paul Simon - You Can Call Me Al.mp3
 01:34:48	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
-01:34:50	Stevie Nicks And Tom Petty	Stop Draggin My Heart Around	28	3:48	1981	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Stevie Nicks And Tom Petty - Stop Draggin My Heart Around.mp3
-01:38:43	Bill Medley And Jennifer Warnes	I've Had The Time Of My Life	0	4:30	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\END87\1\Opener	\Bill Medley And Jennifer Warnes - I've Had The Time Of My Life.mp3
-01:43:19	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 01:43:23	Rolling Stones	Start Me Up	16	3:22	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Rolling Stones - Start Me Up.mp3
 01:46:50	Phil Collins	Sussudio	22	4:09	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Phil Collins - Sussudio.mp3
-01:51:05	Michael Jackson & Paul Mccartney	Say Say Say	15	3:41	1983	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Michael Jackson & Paul McCartney - Say Say Say.mp3
-01:54:50	Aerosmith	Rag Doll	23	4:09	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Aerosmith - Rag Doll.mp3
-N 01:59:04 ** EXTRA SONGS FOR TIMEOUT **		
+01:43:19	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 01:59:04	Fleetwood Mac	Tusk	29	3:07	1979	80SRETRO	2	C:\server_root\generic\80s\audio-2017\80SRETRO\2\Opener	\Fleetwood Mac - Tusk.mp3
 01:59:59	Wham	Wake Me Up Before You Go Go	1	3:41	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Wham - Wake Me Up Before You Go Go.mp3
+01:34:50	Stevie Nicks And Tom Petty	Stop Draggin My Heart Around	28	3:48	1981	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Stevie Nicks And Tom Petty - Stop Draggin My Heart Around.mp3
+01:54:50	Aerosmith	Rag Doll	23	4:09	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Aerosmith - Rag Doll.mp3
+N 01:59:04 ** EXTRA SONGS FOR TIMEOUT **		
+01:51:05	Michael Jackson & Paul Mccartney	Say Say Say	15	3:41	1983	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Michael Jackson & Paul McCartney - Say Say Say.mp3
+01:38:43	Bill Medley And Jennifer Warnes	I've Had The Time Of My Life	0	4:30	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\END87\1\Opener	\Bill Medley And Jennifer Warnes - I've Had The Time Of My Life.mp3
 01:59:59	Steve WinWood	While You See A Chance	29	4:56	1987	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1	\Steve WinWood - While You See A Chance.mp3
 N 02:00:00 New Hour Starts - Hour 02			
 N 02:00:00 **CLOCK: obvious.clk **		
 N 02:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY		
 02:00:00	Eighties Planet.com	Another Hour Of ..[hour Opener Full]	0	0:06	2021	HOUROPEN	80	C:\server_root\generic\80s\audio-2017\HOUROPEN\80	\Eighties Planet.com.mp3
-02:00:06	Taylor Dayne	Tell It To My Heart	18	3:27	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Taylor Dayne - Tell It To My Heart.mp3
-02:03:37	Jane Wiedlin	Rush Hour	11	3:51	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\JANE WIEDLIN - RUSH HOUR.mp3
-02:07:33	REO Speedwagon	Can't Fight This Feeling	18	4:35	1985	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\REO Speedwagon - Can't Fight This Feeling.mp3
+02:46:41	Whitney Houston	How Will I Know	16	4:18	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Whitney Houston - How Will I Know.mp3
+02:51:04	Huey Lewis And The News	Heart And Soul	17	3:53	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Huey Lewis And The News - Heart And Soul.mp3
+02:55:01	Samantha Fox	Touch Me  (I Want Your Body)	2	3:26	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Samantha Fox - Touch Me  (I Want Your Body).mp3
+02:58:31	Sniff And The Tears	Drivers Seat	12	3:50	1979	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\Sniff And The Tears - Drivers Seat.mp3
+02:59:59	Madonna	Material Girl	29	3:44	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Madonna - Material Girl.mp3
 02:12:13	Journey	Dont Stop Believin'	15	3:59	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Journey - Dont Stop Believin'.mp3
-02:16:17	Eddy Grant	I Dont Wanna Dance	2	3:31	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Eddy Grant - I Dont Wanna Dance.mp3
-02:19:52	Janet Jackson	Miss You Much	9	3:46	1989	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Janet Jackson - Miss You Much.mp3
 02:23:43	Female Vo	Short 80splanet Dot Com	0	0:02	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female vo - Short 80splanet dot com.mp3
 02:23:45	Joe Cocker And Jennifer Warnes	Up Where We Belong	14	3:39	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Joe Cocker And Jennifer Warnes - Up Where We Belong.mp3
 02:27:28	Rod Stewart	Some Guys Have All The Luck	14	4:19	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Rod Stewart - Some Guys Have All The Luck.mp3
 02:31:52	Bangles	Eternal Flame	8	3:40	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\BANGLES - ETERNAL FLAME.mp3
 02:35:36	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
-02:35:38	Pink Floyd	Another Brick In The Wall	9	3:24	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\Pink Floyd - Another Brick In The Wall.mp3
 02:39:06	Police	Every Breath You Take	15	3:58	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Police - Every Breath You Take.mp3
+02:19:52	Janet Jackson	Miss You Much	9	3:46	1989	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Janet Jackson - Miss You Much.mp3
 02:43:09	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 02:43:13	Huey Lewis & The News	Do You Believe in Love	0	3:24	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Huey Lewis & The News - Do You Believe in Love.mp3
-02:46:41	Whitney Houston	How Will I Know	16	4:18	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Whitney Houston - How Will I Know.mp3
-02:51:04	Huey Lewis And The News	Heart And Soul	17	3:53	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Huey Lewis And The News - Heart And Soul.mp3
-02:55:01	Samantha Fox	Touch Me  (I Want Your Body)	2	3:26	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Samantha Fox - Touch Me  (I Want Your Body).mp3
+02:07:33	REO Speedwagon	Can't Fight This Feeling	18	4:35	1985	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\REO Speedwagon - Can't Fight This Feeling.mp3
+02:00:06	Taylor Dayne	Tell It To My Heart	18	3:27	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Taylor Dayne - Tell It To My Heart.mp3
+02:35:38	Pink Floyd	Another Brick In The Wall	9	3:24	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\Pink Floyd - Another Brick In The Wall.mp3
 N 02:58:31 ** EXTRA SONGS FOR TIMEOUT **		
-02:58:31	Sniff And The Tears	Drivers Seat	12	3:50	1979	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\Sniff And The Tears - Drivers Seat.mp3
-02:59:59	Madonna	Material Girl	29	3:44	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Madonna - Material Girl.mp3
+02:03:37	Jane Wiedlin	Rush Hour	11	3:51	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\JANE WIEDLIN - RUSH HOUR.mp3
+02:16:17	Eddy Grant	I Dont Wanna Dance	2	3:31	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Eddy Grant - I Dont Wanna Dance.mp3
 02:59:59	Barbra Streisand	Woman In Love	23	3:39	1980	OBV80S	2	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Barbra Streisand - Woman In Love.mp3
 N 03:00:00 New Hour Starts - Hour 03			
 N 03:00:00 **CLOCK: obvious.clk **		
@@ -118,15 +119,15 @@ N 04:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 04:31:44	Boomtown Rats	I Dont Like Mondays	26	4:07	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Boomtown Rats - I Dont Like Mondays.mp3
 04:35:56	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
 04:35:58	Men Without Hats	Safety Dance	10	2:39	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Men Without Hats - Safety Dance.mp3
-04:38:40	Gary Numan	Cars	6	3:37	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Gary Numan - Cars.mp3
-04:42:21	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
-04:42:25	Bobby Mcferrin	Don't Worry Be Happy	0	3:44	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bobby Mcferrin - Don't Worry be Happy.mp3
-04:46:13	Hall And Oates	Kiss On My List	16	3:40	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Hall And Oates - Kiss On My List.mp3
-04:49:57	Heart	Alone	12	3:31	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Heart - Alone.mp3
 04:53:33	Madonna	Papa Don't Preach	17	3:58	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\MADONNA - PAPA DON'T PREACH.mp3
-N 04:57:36 ** EXTRA SONGS FOR TIMEOUT **		
+04:42:21	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 04:57:36	Chic	Le Freak	4	5:19	1978	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\Chic - Le Freak.mp3
 04:59:59	Bananarama	Venus	21	3:27	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bananarama - Venus.mp3
+04:42:25	Bobby Mcferrin	Don't Worry Be Happy	0	3:44	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bobby Mcferrin - Don't Worry be Happy.mp3
+04:38:40	Gary Numan	Cars	6	3:37	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Gary Numan - Cars.mp3
+N 04:57:36 ** EXTRA SONGS FOR TIMEOUT **		
+04:49:57	Heart	Alone	12	3:31	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Heart - Alone.mp3
+04:46:13	Hall And Oates	Kiss On My List	16	3:40	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Hall And Oates - Kiss On My List.mp3
 04:59:59	Samantha Fox	Naughty Girls Need Love Too	0	5:02	1988	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\2\Opener	\Samantha Fox - Naughty Girls Need Love Too.mp3
 N 05:00:00 New Hour Starts - Hour 05			
 N 05:00:00 **CLOCK: obvious.clk **		
@@ -134,19 +135,19 @@ N 05:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 05:00:00	Eighties Planet.com	Another Hour Of ..sung Only	0	0:06	2021	HOUROPEN	80	C:\server_root\generic\80s\audio-2017\HOUROPEN\80	\Eighties Planet.com - Vox Only.mp3
 05:00:06	Matthew Wilder	Break My Stride	18	2:50	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SSHORTS\1\Opener	\Matthew Wilder - Break My Stride.mp3
 05:03:00	Tracey Ullman	Move Over Darling	10	2:26	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Tracey Ullman - Move Over Darling.mp3
-05:05:29	Kim Carnes	Bette Davis Eyes	16	3:33	1981	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\kim carnes - bette davis eyes.mp3
-05:09:06	Bangles	Manic Monday	18	2:57	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Bangles - Manic Monday.mp3
-05:12:07	Tears For Fears	Head Over Heels	20	4:06	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Tears For Fears - Head Over Heels.mp3
-05:16:18	Aha	Take On Me	18	3:30	1985	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Aha - Take On Me.mp3
-05:19:53	Female Vo	Cheery 80s Planet Dot Com	0	0:02	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female vo - Cheery 80s planet dot com.mp3
-05:19:55	Steve Miller Band	Abracadabra	15	4:55	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Steve Miller Band - Abracadabra.mp3
-05:24:56	Pointer Sisters	Jump	18	3:49	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\pointer sisters - jump.mp3
-05:28:50	U2	I Still Haven't Found What I'm Looking For	19	4:23	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\U2 - I Still Haven't Found What I'm Looking For.mp3
-05:33:18	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
-05:33:20	Alan Parsons Project	Eye In The Sky	18	3:45	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1\Opener	\Alan Parsons Project - Eye In The Sky.mp3
 05:37:09	Duran Duran	Rio	8	4:31	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Duran Duran - Rio.mp3
-05:41:46	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 05:41:50	Eurythmics	Sweet Dreams	16	4:38	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Eurythmics - Sweet Dreams.mp3
+05:16:18	Aha	Take On Me	18	3:30	1985	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Aha - Take On Me.mp3
+05:24:56	Pointer Sisters	Jump	18	3:49	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\pointer sisters - jump.mp3
+05:19:53	Female Vo	Cheery 80s Planet Dot Com	0	0:02	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female vo - Cheery 80s planet dot com.mp3
+05:33:20	Alan Parsons Project	Eye In The Sky	18	3:45	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1\Opener	\Alan Parsons Project - Eye In The Sky.mp3
+05:05:29	Kim Carnes	Bette Davis Eyes	16	3:33	1981	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\kim carnes - bette davis eyes.mp3
+05:19:55	Steve Miller Band	Abracadabra	15	4:55	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Steve Miller Band - Abracadabra.mp3
+05:33:18	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
+05:12:07	Tears For Fears	Head Over Heels	20	4:06	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Tears For Fears - Head Over Heels.mp3
+05:09:06	Bangles	Manic Monday	18	2:57	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Bangles - Manic Monday.mp3
+05:41:46	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
+05:28:50	U2	I Still Haven't Found What I'm Looking For	19	4:23	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\U2 - I Still Haven't Found What I'm Looking For.mp3
 05:46:34	Sheena Easton	Modern Girl	21	3:23	1980	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Sheena Easton - Modern Girl.mp3
 05:50:01	REO Speedwagon	Can't Fight This Feeling	18	4:35	1985	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\REO Speedwagon - Can't Fight This Feeling.mp3
 05:54:41	Blondie	The Tide Is High	37	4:22	1980	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Blondie - The Tide is High.mp3
@@ -158,26 +159,26 @@ N 06:00:00 New Hour Starts - Hour 06
 N 06:00:00 **CLOCK: obvious.clk **		
 N 06:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY		
 06:00:00	Eighties Planet.com	Another Hour Of ..[hour Opener Full]	0	0:06	2021	HOUROPEN	80	C:\server_root\generic\80s\audio-2017\HOUROPEN\80	\Eighties Planet.com.mp3
-06:00:06	Madonna	Express Yourself (7 Inch Pukka Remix)	5	4:20	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Madonna - Express Yourself (7 Inch Pukka Remix).mp3
-06:04:31	Nena	99 Red Balloons	4	3:41	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Nena - 99 Red Balloons.mp3
-06:08:17	Janet Jackson	Miss You Much	9	3:46	1989	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Janet Jackson - Miss You Much.mp3
 06:12:08	Kenny Loggins	Footloose	29	3:39	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Kenny Loggins - Footloose.mp3
 06:15:52	Boy Meets Girl	Waiting For A Star To Fall	35	4:10	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Boy Meets Girl - Waiting For A Star To Fall.mp3
 06:20:07	Huey Lewis And The News	Heart And Soul	17	3:53	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Huey Lewis And The News - Heart And Soul.mp3
-06:24:04	Female Vo	This Is Www Dot 80s Planet Dot	0	0:04	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female Vo - This Is Www Dot 80s Planet Dot.mp3
 06:24:08	Bryan Adams	Summer Of '69	6	3:17	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S_SUMMER\1\Opener	\Bryan Adams - Summer Of '69.mp3
 06:27:29	Peter Gabriel	Sledgehammer	0	4:45	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Peter Gabriel - Sledgehammer.mp3
 06:32:19	Starship	Nothings Gonna Stop Us Now	14	4:20	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Starship - Nothings Gonna Stop Us Now.mp3
-06:36:44	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
+06:24:04	Female Vo	This Is Www Dot 80s Planet Dot	0	0:04	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female Vo - This Is Www Dot 80s Planet Dot.mp3
 06:36:46	Glenn Frey	The Heat Is On	13	3:24	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S_SUMMER\1\Opener	\Glenn Frey - The Heat Is On.mp3
 06:40:15	Van Halen	Why Can't This Be Love	19	3:23	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Van Halen - Why Can't This Be Love.mp3
-06:43:42	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
+06:04:31	Nena	99 Red Balloons	4	3:41	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Nena - 99 Red Balloons.mp3
+06:36:44	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
 06:43:46	Grover Washington Jr. & Bill Withers	Just The Two Of Us	20	3:19	1980	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Grover Washington Jr. & Bill Withers - Just The Two Of Us.mp3
-06:47:09	Madonna	Borderline	31	3:27	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Madonna - Borderline.mp3
-06:50:41	George Michael	Faith : Planet Remix (power Start)	4	2:37	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\George Michael - Faith  Planet Remix (power Start).mp3
+06:00:06	Madonna	Express Yourself (7 Inch Pukka Remix)	5	4:20	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Madonna - Express Yourself (7 Inch Pukka Remix).mp3
+06:43:42	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 06:53:18	Phil Collins	A Groovy Kind Of Love	11	3:19	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Phil Collins - A Groovy Kind Of Love.mp3
-N 06:56:41 ** EXTRA SONGS FOR TIMEOUT **		
+06:50:41	George Michael	Faith : Planet Remix (power Start)	4	2:37	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\George Michael - Faith  Planet Remix (power Start).mp3
+06:08:17	Janet Jackson	Miss You Much	9	3:46	1989	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Janet Jackson - Miss You Much.mp3
 06:56:41	Mr Big	Romeo	0	2:29	2005	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1	\Mr Big - Romeo.mp3
+N 06:56:41 ** EXTRA SONGS FOR TIMEOUT **		
+06:47:09	Madonna	Borderline	31	3:27	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Madonna - Borderline.mp3
 06:59:10	Chicago	Hard To Say I'm Sorry	20	3:40	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Chicago - Hard To Say I'm Sorry.mp3
 06:59:59	Donna Summer	She Works Hard For The Money	11	3:59	1983	OBV80S	2	C:\server_root\generic\80s\audio-2017\_BIG80S\1\Opener	\Donna Summer - She Works Hard For The Money.mp3
 N 07:00:00 New Hour Starts - Hour 07			
@@ -193,18 +194,18 @@ N 07:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 07:26:00	Female Vo	Live From Dallas Tx Every Day	0	0:11	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female vo - Live From Dallas Tx Every Day.mp3
 07:26:11	Duran Duran	New Moon On Monday	11	4:01	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Duran Duran - New Moon On Monday.mp3
 07:30:16	Men At Work	Down Under	11	3:24	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Men at Work - Down Under.mp3
-07:33:44	Maria Mckee	Show Me Heaven	13	3:39	1990	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Maria Mckee - Show Me Heaven.mp3
+07:59:59	Olivia Newton John	Physical	16	3:34	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Olivia Newton John - Physical.mp3
 07:37:27	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
-07:37:29	Diana Ross	I'm Coming Out	0	5:10	1980	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Diana Ross - I'm Coming Out.mp3
-07:42:46	Crowded House	Don't Dream It's Over	13	3:40	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1\Opener	\Crowded House - Don't Dream It's Over.mp3
-07:46:30	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 07:46:34	Lionel Richie	Running With The Night	30	3:52	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Lionel Richie - Running With The Night.mp3
-07:50:30	Kiss	Crazy Crazy Nights	0	3:32	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Kiss - Crazy Crazy Nights.mp3
+07:33:44	Maria Mckee	Show Me Heaven	13	3:39	1990	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Maria Mckee - Show Me Heaven.mp3
+07:46:30	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
+07:59:59	Paul Mccartney	Goodnight Tonight	8	4:05	1979	80SRETRO	2	C:\server_root\generic\80s\audio-2017\80SRETRO\2	\Paul Mccartney - goodnight Tonight.mp3
+07:42:46	Crowded House	Don't Dream It's Over	13	3:40	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1\Opener	\Crowded House - Don't Dream It's Over.mp3
 07:54:06	Michael Mcdonald With Patti Labelle	On My Own	21	4:26	1986	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael McDonald with Patti Labelle - On My Own.mp3
 07:58:37	Tone Loc	Wild Thing	32	3:54	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\TONE LOC - WILD THING.mp3
 N 07:59:59 ** EXTRA SONGS FOR TIMEOUT **		
-07:59:59	Paul Mccartney	Goodnight Tonight	8	4:05	1979	80SRETRO	2	C:\server_root\generic\80s\audio-2017\80SRETRO\2	\Paul Mccartney - goodnight Tonight.mp3
-07:59:59	Olivia Newton John	Physical	16	3:34	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Olivia Newton John - Physical.mp3
+07:37:29	Diana Ross	I'm Coming Out	0	5:10	1980	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Diana Ross - I'm Coming Out.mp3
+07:50:30	Kiss	Crazy Crazy Nights	0	3:32	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Kiss - Crazy Crazy Nights.mp3
 07:59:59	Belinda Carlisle	Mad About You	7	3:21	1988	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\2\Opener	\Belinda Carlisle - Mad About You.mp3
 N 08:00:00 New Hour Starts - Hour 08			
 N 08:00:00 **CLOCK: obvious.clk **		
@@ -222,15 +223,15 @@ N 08:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 08:30:25	Kim Wilde	You Keep Me Hangin On	16	3:58	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Kim Wilde - You Keep Me Hangin On.mp3
 08:34:28	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
 08:34:30	Elton John	I'm Still Standing	0	2:53	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SSHORTS\1\Opener	\ELTON JOHN - I'M STILL STANDING.mp3
-08:37:27	Tracey Ullman	They Don't Know	0	2:54	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Tracey Ullman - They Don't Know.mp3
-08:40:24	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
-08:40:28	Gloria Estefan	Can't Stay Away From You	7	3:47	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Gloria Estefan - Can't Stay Away From You.mp3
 08:44:20	Bon Jovi	You Give Love A Bad Name	0	3:29	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bon Jovi - You Give Love A Bad Name.mp3
-08:47:53	REO Speedwagon	Can't Fight This Feeling	18	4:35	1985	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\REO Speedwagon - Can't Fight This Feeling.mp3
-08:52:33	Frankie Goes To Hollywood	Relax	5	3:46	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Frankie Goes To Hollywood - Relax.mp3
-N 08:56:23 ** EXTRA SONGS FOR TIMEOUT **		
+08:40:24	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 08:56:23	Kate Bush	Wow	16	3:33	1979	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1	\Kate Bush - Wow.mp3
 08:59:59	Doobie Brothers	What A Fool Believes	16	3:29	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Doobie Brothers - What A Fool Believes.mp3
+08:40:28	Gloria Estefan	Can't Stay Away From You	7	3:47	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Gloria Estefan - Can't Stay Away From You.mp3
+08:52:33	Frankie Goes To Hollywood	Relax	5	3:46	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Frankie Goes To Hollywood - Relax.mp3
+N 08:56:23 ** EXTRA SONGS FOR TIMEOUT **		
+08:47:53	REO Speedwagon	Can't Fight This Feeling	18	4:35	1985	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\REO Speedwagon - Can't Fight This Feeling.mp3
+08:37:27	Tracey Ullman	They Don't Know	0	2:54	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Tracey Ullman - They Don't Know.mp3
 08:59:59	Phil Collins	Against All Odds	9	3:13	1984	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1	\PHIL COLLINS - AGAINST ALL ODDS.mp3
 N 09:00:00 New Hour Starts - Hour 09			
 N 09:00:00 **CLOCK: obvious.clk **		
@@ -252,10 +253,10 @@ N 09:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 09:43:00	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 09:43:04	Diana Ross	Upside Down	10	3:26	1980	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Diana Ross - Upside Down.mp3
 09:46:34	Phil Collins	Easy Lover	29	4:49	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Phil Collins - Easy Lover.mp3
-09:51:29	George Michael	Faith : Planet Remix (power Start)	4	2:37	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\George Michael - Faith  Planet Remix (power Start).mp3
+09:57:04	Abba	Gimme! Gimme! Gimme! (A Man After Midnight)	17	4:36	1979	80SRETRO	2	C:\server_root\generic\80s\audio-2017\80SRETRO\2	\Abba - Gimme! Gimme! Gimme! (A Man After Midnight).mp3
 09:54:06	Harold Faltermeyer	Axel F	9	2:55	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Harold FalterMeyer - Axel F.mp3
 N 09:57:04 ** EXTRA SONGS FOR TIMEOUT **		
-09:57:04	Abba	Gimme! Gimme! Gimme! (A Man After Midnight)	17	4:36	1979	80SRETRO	2	C:\server_root\generic\80s\audio-2017\80SRETRO\2	\Abba - Gimme! Gimme! Gimme! (A Man After Midnight).mp3
+09:51:29	George Michael	Faith : Planet Remix (power Start)	4	2:37	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\George Michael - Faith  Planet Remix (power Start).mp3
 09:59:59	Yazoo	Don't Go	16	2:46	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SSHORTS\1\Opener	\Yazoo - Don't Go.mp3
 09:59:59	Elton John	Little Jeannie	0	4:48	1980	OBV80S	2	C:\server_root\generic\80s\audio-2017\80SX\1	\Elton John - Little Jeannie.mp3
 N 10:00:00 New Hour Starts - Hour 10			
@@ -273,16 +274,16 @@ N 10:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 10:26:58	Billy Joel	Uptown Girl	9	3:03	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Billy Joel - Uptown Girl.mp3
 10:30:04	Berlin	Take My Breath Away	11	3:56	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Berlin - Take My Breath Away.mp3
 10:34:05	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
+10:46:34	Irene Cara	Fame	4	3:35	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Irene Cara - Fame.mp3
+10:58:38	Flying Lizards	Money	17	2:24	1979	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\FLYING LIZARDS - MONEY.mp3
+10:42:22	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 10:34:07	Billy Ocean	When The Going Gets Tough	0	3:54	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Billy Ocean - When The Going Gets Tough.mp3
 10:38:06	Madonna	Into The Groove (Original 7"  Version)	3	4:11	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Madonna - Into The Groove (Original 7  Version).mp3
-10:42:22	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 10:42:26	Michael Jackson	Beat It	24	4:03	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael Jackson - Beat It.mp3
-10:46:34	Irene Cara	Fame	4	3:35	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Irene Cara - Fame.mp3
-10:50:14	Michael Mcdonald With Patti Labelle	On My Own	21	4:26	1986	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael McDonald with Patti Labelle - On My Own.mp3
 10:54:45	Laura Branigan	Self Control	10	3:49	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Laura Branigan - Self Control.mp3
 N 10:58:38 ** EXTRA SONGS FOR TIMEOUT **		
-10:58:38	Flying Lizards	Money	17	2:24	1979	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\FLYING LIZARDS - MONEY.mp3
 10:59:59	Leo Sayer	More Than I Can Say	20	3:28	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1\Opener	\Leo Sayer - More Than I Can Say.mp3
+10:50:14	Michael Mcdonald With Patti Labelle	On My Own	21	4:26	1986	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael McDonald with Patti Labelle - On My Own.mp3
 10:59:59	Phil Collins	Separate Lives	0	3:54	1986	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\PHIL COLLINS - SEPARATE LIVES.mp3
 N 11:00:00 New Hour Starts - Hour 11			
 N 11:00:00 **CLOCK: obvious.clk **		
@@ -293,19 +294,19 @@ N 11:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 11:07:30	Michael Jackson & Paul Mccartney	Say Say Say	15	3:41	1983	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Michael Jackson & Paul McCartney - Say Say Say.mp3
 11:11:15	REO Speedwagon	Keep On Loving You	11	3:13	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\REO Speedwagon - Keep On Loving You.mp3
 11:14:32	Jackson 5	I Want You Back (Remix 88)	1	3:51	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Jackson 5 - I Want You Back (Remix 88).mp3
-11:18:28	Rick Springfield	Jessie's Girl	7	3:04	1981	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1	\Rick Springfield - Jessie's Girl.mp3
-11:21:35	Female Drop	Biggest 80s World	0	0:10	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female Drop - Biggest 80s World.mp3
-11:21:45	Toni Basil	Mickey	3	3:14	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Toni Basil - Mickey.mp3
-11:25:03	Cure	Friday I'm In Love	29	3:24	1992	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Cure - Friday I'm In Love.mp3
-11:28:32	Belinda Carlisle	Heaven Is A Place On Earth	0	3:50	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Belinda Carlisle - Heaven Is A Place On Earth.mp3
-11:32:26	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
-11:32:28	Bangles	Walk Like An Egyptian	15	3:04	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Bangles - Walk Like An Egyptian.mp3
-11:35:36	Stray Cats	Rock This Town	0	2:36	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SSHORTS\1\Opener	\Stray Cats - Rock This Town.mp3
-11:38:15	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
-11:38:19	Tears For Fears	Everybody Wants To Rule The World	8	3:56	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Tears For Fears - Everybody Wants To Rule The World.mp3
-11:42:20	Eurythmics	There Must Be An Angel	0	4:30	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Eurythmics - There Must Be An Angel.mp3
 11:46:56	Heart	Alone	12	3:31	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Heart - Alone.mp3
+11:21:35	Female Drop	Biggest 80s World	0	0:10	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female Drop - Biggest 80s World.mp3
+11:35:36	Stray Cats	Rock This Town	0	2:36	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SSHORTS\1\Opener	\Stray Cats - Rock This Town.mp3
+11:18:28	Rick Springfield	Jessie's Girl	7	3:04	1981	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1	\Rick Springfield - Jessie's Girl.mp3
+11:21:45	Toni Basil	Mickey	3	3:14	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Toni Basil - Mickey.mp3
+11:32:26	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
+11:25:03	Cure	Friday I'm In Love	29	3:24	1992	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Cure - Friday I'm In Love.mp3
+11:42:20	Eurythmics	There Must Be An Angel	0	4:30	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Eurythmics - There Must Be An Angel.mp3
+11:38:15	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 11:50:32	Michael Jackson	Leave Me Alone	9	4:23	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael Jackson - Leave Me Alone.mp3
+11:28:32	Belinda Carlisle	Heaven Is A Place On Earth	0	3:50	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Belinda Carlisle - Heaven Is A Place On Earth.mp3
+11:38:19	Tears For Fears	Everybody Wants To Rule The World	8	3:56	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Tears For Fears - Everybody Wants To Rule The World.mp3
+11:32:28	Bangles	Walk Like An Egyptian	15	3:04	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Bangles - Walk Like An Egyptian.mp3
 N 11:55:00 ** EXTRA SONGS FOR TIMEOUT **		
 11:55:00	Rainbow	Since You've Been Gone	6	3:06	1979	80SRETRO	2	C:\server_root\generic\80s\audio-2017\80S\2\Opener	\Rainbow - Since You've Been Gone.mp3
 11:58:09	Joan Jett	I Love Rock And Roll	14	2:50	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Joan Jett - I Love Rock and Roll.mp3
@@ -341,26 +342,26 @@ N 13:00:00 **CLOCK: obvious.clk **
 N 13:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY		
 13:00:00	Eighties Planet.com	Another Hour Of ..[hour Opener Full]	0	0:06	2021	HOUROPEN	80	C:\server_root\generic\80s\audio-2017\HOUROPEN\80	\Eighties Planet.com.mp3
 13:00:06	Stevie Wonder	Part-time Lover	12	3:34	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Stevie Wonder - Part-time Lover.mp3
-13:03:44	Whitney Houston	Didn't We Almost Have It All	3	4:52	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Whitney Houston - Didn't We Almost Have It All.mp3
-13:08:42	Janet Jackson	Miss You Much	9	3:46	1989	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Janet Jackson - Miss You Much.mp3
 13:12:33	Travelling Wilburys	Handle With Care	9	3:08	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Travelling Wilburys - Handle With Care.mp3
 13:15:44	Rockwell	Somebodys Watching Me	5	3:37	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Rockwell - Somebodys Watching Me.mp3
+13:26:58	Simple Minds	Don't You (Forget About Me)	3	4:09	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Simple Minds - Don't You (Forget About Me).mp3
+13:08:42	Janet Jackson	Miss You Much	9	3:46	1989	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Janet Jackson - Miss You Much.mp3
 13:19:26	Huey Lewis And The News	Heart And Soul	17	3:53	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Huey Lewis And The News - Heart And Soul.mp3
 13:23:23	Female Vo	Cheery 80s Planet Dot Com	0	0:02	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female vo - Cheery 80s planet dot com.mp3
-13:23:25	Fleetwood Mac	Big Love	14	3:29	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Fleetwood Mac - Big Love.mp3
-13:26:58	Simple Minds	Don't You (Forget About Me)	3	4:09	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Simple Minds - Don't You (Forget About Me).mp3
 13:31:12	Michael Jackson	P.Y.T. (Pretty Young Thing)	2	3:45	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Michael Jackson - P.Y.T. (Pretty Young Thing).mp3
-13:35:01	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
 13:35:03	Paul Hardcastle	19	2	3:30	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Paul Hardcastle - 19.mp3
 13:38:37	Supertramp	Give A Little Bit	2	4:02	1977	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\Supertramp - Give A Little Bit.mp3
-13:42:39	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
+13:35:01	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
 13:42:43	Eric Carmen	Hungry Eyes	6	3:52	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Eric Carmen - Hungry Eyes.mp3
 13:46:39	Phil Collins	Two Hearts	13	3:15	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Phil Collins - Two Hearts.mp3
+13:42:39	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 13:49:58	George Michael	Faith : Planet Remix (power Start)	4	2:37	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\George Michael - Faith  Planet Remix (power Start).mp3
 13:52:35	Yes	Owner Of A Lonely Heart	14	4:13	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Yes - Owner Of A Lonely Heart.mp3
+13:03:44	Whitney Houston	Didn't We Almost Have It All	3	4:52	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Whitney Houston - Didn't We Almost Have It All.mp3
+13:59:46	Prince	When Doves Cry	5	3:38	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\PRINCE - WHEN DOVES CRY.mp3
 N 13:56:53 ** EXTRA SONGS FOR TIMEOUT **		
 13:56:53	Eric Clapton	Promises	6	2:50	1979	80SRETRO	2	C:\server_root\generic\80s\audio-2017\80SRETRO\2\Opener	\Eric Clapton - Promises.mp3
-13:59:46	Prince	When Doves Cry	5	3:38	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\PRINCE - WHEN DOVES CRY.mp3
+13:23:25	Fleetwood Mac	Big Love	14	3:29	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Fleetwood Mac - Big Love.mp3
 13:59:59	Robert Palmer	I Didn't Mean To Turn You On	19	3:21	1986	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Robert Palmer - I Didn't Mean To Turn You On.mp3
 N 14:00:00 New Hour Starts - Hour 14			
 N 14:00:00 **CLOCK: obvious.clk **		
@@ -383,10 +384,10 @@ N 14:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 14:45:16	Michael Sambello	Maniac	13	3:57	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael Sambello - Maniac.mp3
 14:49:17	Terrence Trent D'arby	Wishing Well	8	3:23	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Terrence Trent D'arby - Wishing Well.mp3
 14:52:44	Michael Mcdonald With Patti Labelle	On My Own	21	4:26	1986	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael McDonald with Patti Labelle - On My Own.mp3
-14:57:15	Kylie Minogue	The Locomotion	0	3:01	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Kylie Minogue - The Locomotion.mp3
+14:59:59	Pretenders	Back On The Chain Gang	12	3:39	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Pretenders - Back On The Chain Gang.mp3
 N 14:59:59 ** EXTRA SONGS FOR TIMEOUT **		
 14:59:59	Gary Brooker	No More Fear Of Flying	15	4:26	1979	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80S\2\Opener	\Gary Brooker - No More Fear Of Flying.mp3
-14:59:59	Pretenders	Back On The Chain Gang	12	3:39	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Pretenders - Back On The Chain Gang.mp3
+14:57:15	Kylie Minogue	The Locomotion	0	3:01	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Kylie Minogue - The Locomotion.mp3
 14:59:59	Stevie Wonder With Paul Mccartney	Ebony & Ivory	7	3:33	1982	OBV80S	2	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Stevie Wonder With Paul McCartney - Ebony & Ivory.mp3
 N 15:00:00 New Hour Starts - Hour 15			
 N 15:00:00 **CLOCK: obvious.clk **		
@@ -418,28 +419,28 @@ N 16:00:00 New Hour Starts - Hour 16
 N 16:00:00 **CLOCK: obvious.clk **		
 N 16:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY		
 16:00:00	Eighties Planet.com	Another Hour Of ..sung Only	0	0:06	2021	HOUROPEN	80	C:\server_root\generic\80s\audio-2017\HOUROPEN\80	\Eighties Planet.com - Vox Only.mp3
-16:00:06	Frida	I Know There's Something Going On	9	3:55	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Frida - I Know There's Something Going On.mp3
-16:04:05	Bangles	Eternal Flame	8	3:40	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\BANGLES - ETERNAL FLAME.mp3
 16:07:49	Janet Jackson	Miss You Much	9	3:46	1989	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Janet Jackson - Miss You Much.mp3
 16:11:40	John Lennon	Woman	13	3:14	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\John Lennon - Woman.mp3
-16:14:58	Roxette	Dressed For Success	0	4:01	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Roxette - Dressed For Success.mp3
-16:19:04	Huey Lewis And The News	Heart And Soul	17	3:53	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Huey Lewis And The News - Heart And Soul.mp3
-16:23:01	Female Whisper?	80splanet Dot Com	0	0:02	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female Whisper - 80splanet Dot Com.mp3
-16:23:03	Duran Duran	The Reflex	1	3:58	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Duran Duran - The Reflex.mp3
-16:27:05	Samantha Fox	Touch Me  (I Want Your Body)	2	3:26	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Samantha Fox - Touch Me  (I Want Your Body).mp3
 16:30:35	Whitney Houston	How Will I Know	16	4:18	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Whitney Houston - How Will I Know.mp3
-16:34:58	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
-16:35:00	George Harrison	Got My Mind Set On You	5	3:38	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\George Harrison - Got My Mind Set On You.mp3
-16:38:43	Billy Joel	It's Still Rock And Roll To Me	7	2:45	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Billy Joel - It's Still Rock And Roll To Me.mp3
-16:41:32	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
-16:41:36	Debbie Gibson	Only In My Dreams	0	3:32	0	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Debbie Gibson - Only In My Dreams.mp3
-16:45:12	Deniece Williams	Let's Hear It For The Boy	23	4:03	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Deniece Williams - Let's Hear It For The Boy.mp3
-16:49:20	George Michael	Faith : Planet Remix (power Start)	4	2:37	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\George Michael - Faith  Planet Remix (power Start).mp3
 16:51:57	Paul Simon	You Can Call Me Al	15	4:28	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Paul Simon - You Can Call Me Al.mp3
-N 16:56:30 ** EXTRA SONGS FOR TIMEOUT **		
+16:27:05	Samantha Fox	Touch Me  (I Want Your Body)	2	3:26	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Samantha Fox - Touch Me  (I Want Your Body).mp3
 16:56:30	Rupert Holmes	Escape (The Pina Colada Song)	14	4:12	1980	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SPLANET\1\Opener	\Rupert Holmes - Escape (The Pina Colada Song).mp3
+16:23:01	Female Whisper?	80splanet Dot Com	0	0:02	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female Whisper - 80splanet Dot Com.mp3
 16:59:59	Taylor Dayne	Tell It To My Heart	18	3:27	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Taylor Dayne - Tell It To My Heart.mp3
 16:59:59	Prince	Little Red Corvette	15	4:38	1985	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1	\PRINCE - LITTLE RED CORVETTE.mp3
+16:45:12	Deniece Williams	Let's Hear It For The Boy	23	4:03	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Deniece Williams - Let's Hear It For The Boy.mp3
+16:34:58	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
+16:35:00	George Harrison	Got My Mind Set On You	5	3:38	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\George Harrison - Got My Mind Set On You.mp3
+16:23:03	Duran Duran	The Reflex	1	3:58	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Duran Duran - The Reflex.mp3
+16:41:32	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
+16:04:05	Bangles	Eternal Flame	8	3:40	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\BANGLES - ETERNAL FLAME.mp3
+16:38:43	Billy Joel	It's Still Rock And Roll To Me	7	2:45	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Billy Joel - It's Still Rock And Roll To Me.mp3
+16:41:36	Debbie Gibson	Only In My Dreams	0	3:32	0	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Debbie Gibson - Only In My Dreams.mp3
+16:49:20	George Michael	Faith : Planet Remix (power Start)	4	2:37	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\George Michael - Faith  Planet Remix (power Start).mp3
+N 16:56:30 ** EXTRA SONGS FOR TIMEOUT **		
+16:14:58	Roxette	Dressed For Success	0	4:01	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Roxette - Dressed For Success.mp3
+16:19:04	Huey Lewis And The News	Heart And Soul	17	3:53	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Huey Lewis And The News - Heart And Soul.mp3
+16:00:06	Frida	I Know There's Something Going On	9	3:55	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Frida - I Know There's Something Going On.mp3
 N 17:00:00 New Hour Starts - Hour 17			
 N 17:00:00 **CLOCK: obvious.clk **		
 N 17:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY		
@@ -447,24 +448,24 @@ N 17:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 17:00:06	Rolling Stones	Start Me Up	16	3:22	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Rolling Stones - Start Me Up.mp3
 17:03:33	Dire Straits	Money For Nothing	0	3:57	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1	\Dire Straits - Money For Nothing.mp3
 17:07:35	Go West	Call Me	22	3:55	1985	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Go West - Call Me.mp3
-17:11:35	Soft Cell	Tainted Love	7	2:27	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SSHORTS\1\Opener	\Soft Cell - Tainted Love.mp3
-17:14:05	Pat Benatar	Love Is A Battlefield	12	3:51	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Pat Benatar - Love Is A Battlefield.mp3
-17:18:01	Asia	Heat Of The Moment	10	3:37	1982	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Asia - Heat Of The Moment.mp3
-17:21:42	Female Vo	Streaming The 80s	0	0:10	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female vo - Streaming The 80s.mp3
-17:21:52	Kenny Rogers & Dolly Parton	Islands In The Stream	9	3:58	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Kenny Rogers & Dolly Parton - Islands in the Stream.mp3
-17:25:55	Journey	Dont Stop Believin'	15	3:59	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Journey - Dont Stop Believin'.mp3
+17:57:31	Gloria Gaynor	I Will Survive	6	4:35	1979	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\Gloria Gaynor - I Will Survive.mp3
 17:29:59	Bruce Springsteen	Born In The USA	18	4:22	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bruce Springsteen - Born In The USA.mp3
-17:34:27	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
-17:34:29	Madonna	Crazy For You	12	3:32	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\MADONNA - CRAZY FOR YOU.mp3
-17:38:06	Joe Cocker And Jennifer Warnes	Up Where We Belong	14	3:39	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Joe Cocker And Jennifer Warnes - Up Where We Belong.mp3
-17:41:49	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 17:41:53	Sheena Easton	Morning Train (Nine To Five)	3	3:07	1980	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Sheena Easton - Morning Train (Nine To Five).mp3
+17:21:42	Female Vo	Streaming The 80s	0	0:10	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female vo - Streaming The 80s.mp3
 17:45:04	Kajagoogoo	Too Shy	15	3:31	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Kajagoogoo - Too Shy.mp3
 17:48:39	Michael Mcdonald With Patti Labelle	On My Own	21	4:26	1986	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael McDonald with Patti Labelle - On My Own.mp3
 17:53:10	Paul Young	Every Time You Go Away	13	4:16	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Paul Young - Every Time You Go Away.mp3
+17:34:27	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
+17:11:35	Soft Cell	Tainted Love	7	2:27	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SSHORTS\1\Opener	\Soft Cell - Tainted Love.mp3
+17:14:05	Pat Benatar	Love Is A Battlefield	12	3:51	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Pat Benatar - Love Is A Battlefield.mp3
+17:41:49	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
+17:18:01	Asia	Heat Of The Moment	10	3:37	1982	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Asia - Heat Of The Moment.mp3
+17:21:52	Kenny Rogers & Dolly Parton	Islands In The Stream	9	3:58	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Kenny Rogers & Dolly Parton - Islands in the Stream.mp3
+17:25:55	Journey	Dont Stop Believin'	15	3:59	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Journey - Dont Stop Believin'.mp3
+17:38:06	Joe Cocker And Jennifer Warnes	Up Where We Belong	14	3:39	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Joe Cocker And Jennifer Warnes - Up Where We Belong.mp3
 N 17:57:31 ** EXTRA SONGS FOR TIMEOUT **		
-17:57:31	Gloria Gaynor	I Will Survive	6	4:35	1979	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\Gloria Gaynor - I Will Survive.mp3
 17:59:59	Genesis	Invisible Touch	17	3:15	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Genesis - Invisible Touch.mp3
+17:34:29	Madonna	Crazy For You	12	3:32	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\MADONNA - CRAZY FOR YOU.mp3
 17:59:59	Toto	Africa	11	4:41	1983	OBV80S	2	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Toto - Africa.mp3
 N 18:00:00 New Hour Starts - Hour 18			
 N 18:00:00 **CLOCK: obvious.clk **		
@@ -477,20 +478,20 @@ N 18:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 18:14:23	Michael Jackson	Thriller	21	5:14	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Michael Jackson - Thriller.mp3
 18:19:43	U2	With Or Without You	26	4:40	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1	\U2 - With or Without You.mp3
 18:24:29	Female Vo	Short 80splanet Dot Com	0	0:02	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female vo - Short 80splanet dot com.mp3
-18:24:31	Paula Abdul	Opposites Attract	9	3:32	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Paula Abdul - Opposites Attract.mp3
-18:28:07	Bill Medley And Jennifer Warnes	I've Had The Time Of My Life	0	4:30	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\END87\1\Opener	\Bill Medley And Jennifer Warnes - I've Had The Time Of My Life.mp3
 18:32:43	Hall And Oates	Kiss On My List	16	3:40	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Hall And Oates - Kiss On My List.mp3
-18:36:27	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
 18:36:29	Inxs	Need You Tonight	5	2:57	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Inxs - Need You Tonight.mp3
 18:39:30	David Bowie	Ashes To Ashes	34	4:13	1980	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\David Bowie - Ashes To Ashes.mp3
+18:36:27	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
+18:28:07	Bill Medley And Jennifer Warnes	I've Had The Time Of My Life	0	4:30	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\END87\1\Opener	\Bill Medley And Jennifer Warnes - I've Had The Time Of My Life.mp3
+18:59:59	Eddy Grant	I Dont Wanna Dance	2	3:31	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Eddy Grant - I Dont Wanna Dance.mp3
 18:43:48	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
+18:59:49	Paul McCartney	Just Another Day	0	3:32	1971	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1	\Paul McCartney - Just Another Day.mp3
+18:24:31	Paula Abdul	Opposites Attract	9	3:32	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Paula Abdul - Opposites Attract.mp3
 18:43:52	Tom Petty	Free Falling	11	4:01	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Tom Petty - Free Falling.mp3
 18:47:57	Bananarama	Venus	21	3:27	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bananarama - Venus.mp3
+N 18:59:49 ** EXTRA SONGS FOR TIMEOUT **		
 18:51:28	Starship	Nothings Gonna Stop Us Now	14	4:20	1987	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Starship - Nothings Gonna Stop Us Now.mp3
 18:55:53	Jane Wiedlin	Rush Hour	11	3:51	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\JANE WIEDLIN - RUSH HOUR.mp3
-N 18:59:49 ** EXTRA SONGS FOR TIMEOUT **		
-18:59:49	Paul McCartney	Just Another Day	0	3:32	1971	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1	\Paul McCartney - Just Another Day.mp3
-18:59:59	Eddy Grant	I Dont Wanna Dance	2	3:31	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Eddy Grant - I Dont Wanna Dance.mp3
 18:59:59	Phil Collins	I Missed Again	19	3:26	1984	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Phil Collins - I Missed Again.mp3
 N 19:00:00 New Hour Starts - Hour 19			
 N 19:00:00 **CLOCK: obvious.clk **		
@@ -498,25 +499,25 @@ N 19:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 19:00:00	Eighties Planet.com	Another Hour Of ..sung Only	0	0:06	2021	HOUROPEN	80	C:\server_root\generic\80s\audio-2017\HOUROPEN\80	\Eighties Planet.com - Vox Only.mp3
 19:00:06	Toto	Rosanna	6	5:18	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Toto - Rosanna.mp3
 19:05:31	Pink Floyd	Another Brick In The Wall	9	3:24	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\Pink Floyd - Another Brick In The Wall.mp3
-19:08:59	Diana Ross	Upside Down	10	3:26	1980	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Diana Ross - Upside Down.mp3
-19:12:29	Pointer Sisters	I'm So Excited	32	4:41	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Pointer Sisters - I'm So Excited.mp3
 19:17:15	Terrence Trent D'arby	Sign Your Name	23	4:18	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Terrence Trent D'arby - Sign Your Name.mp3
+19:28:34	Bruce Springsteen	Dancing In The Dark	14	3:44	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bruce Springsteen - Dancing In The Dark.mp3
+19:08:59	Diana Ross	Upside Down	10	3:26	1980	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Diana Ross - Upside Down.mp3
 19:21:38	Rick Springfield	Jessie's Girl	7	3:04	1981	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1	\Rick Springfield - Jessie's Girl.mp3
 19:24:45	Female Drop	Biggest 80s World	0	0:10	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female Drop - Biggest 80s World.mp3
-19:24:55	Tiffany	I Think We're Alone Now	19	3:34	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Tiffany - I Think We're Alone Now.mp3
-19:28:34	Bruce Springsteen	Dancing In The Dark	14	3:44	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bruce Springsteen - Dancing In The Dark.mp3
 19:32:22	ZZ Top	Legs	19	4:19	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Zz Top - Legs.mp3
-19:36:46	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
 19:36:48	Lionel Richie	Dancing On The Ceiling	0	4:03	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Lionel Richie - Dancing On The Ceiling.mp3
 19:40:56	Huey Lewis & The News	Do You Believe in Love	0	3:24	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Huey Lewis & The News - Do You Believe in Love.mp3
-19:44:24	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
+19:36:46	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
 19:44:28	Bobby Mcferrin	Don't Worry Be Happy	0	3:44	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Bobby Mcferrin - Don't Worry be Happy.mp3
-19:48:16	Steve Winwood	Valerie	3	4:01	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\STEVE WINWOOD - VALERIE.mp3
-19:52:21	Phil Collins	Another Day In Paradise	94	4:29	1989	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Phil Collins - Another Day In Paradise.mp3
-19:56:56	Gary Numan	Cars	6	3:37	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Gary Numan - Cars.mp3
-N 19:59:59 ** EXTRA SONGS FOR TIMEOUT **		
+19:24:55	Tiffany	I Think We're Alone Now	19	3:34	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Tiffany - I Think We're Alone Now.mp3
+19:44:24	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 19:59:59	Mcfadden & Whitehead	Ain´t No Stoppin´us Now	18	3:30	1979	80SRETRO	1	C:\server_root\generic\80s\audio-2017\80SRETRO\1\Opener	\McFadden & Whitehead - Ain´t no stoppin´us now.mp3
 19:59:59	Madonna	Papa Don't Preach	17	3:58	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\MADONNA - PAPA DON'T PREACH.mp3
+19:52:21	Phil Collins	Another Day In Paradise	94	4:29	1989	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Phil Collins - Another Day In Paradise.mp3
+19:48:16	Steve Winwood	Valerie	3	4:01	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\STEVE WINWOOD - VALERIE.mp3
+N 19:59:59 ** EXTRA SONGS FOR TIMEOUT **		
+19:12:29	Pointer Sisters	I'm So Excited	32	4:41	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Pointer Sisters - I'm So Excited.mp3
+19:56:56	Gary Numan	Cars	6	3:37	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Gary Numan - Cars.mp3
 19:59:59	Tina Turner	The Best	9	3:58	1989	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Tina Turner - The Best.mp3
 N 20:00:00 New Hour Starts - Hour 20			
 N 20:00:00 **CLOCK: obvious.clk **		
@@ -562,10 +563,10 @@ N 21:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 21:33:52	Peter Gabriel	Sledgehammer	0	4:45	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Peter Gabriel - Sledgehammer.mp3
 21:38:42	Lionel Richie	Running With The Night	30	3:52	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Lionel Richie - Running With The Night.mp3
 21:42:38	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
-21:42:42	Tubeway Army	Are Friends Electric	11	5:03	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Tubeway Army - Are Friends Electric.mp3
-21:47:51	Will To Power	Baby, I Love Your Way	5	3:56	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Will To Power - Baby, I Love Your Way.mp3
 21:51:51	Madonna	Like A Virgin	7	3:02	1984	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Madonna - Like a virgin.mp3
 21:54:56	Prince	Kiss	2	3:36	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Prince - Kiss.mp3
+21:42:42	Tubeway Army	Are Friends Electric	11	5:03	1979	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Tubeway Army - Are Friends Electric.mp3
+21:47:51	Will To Power	Baby, I Love Your Way	5	3:56	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Will To Power - Baby, I Love Your Way.mp3
 N 21:58:36 ** EXTRA SONGS FOR TIMEOUT **		
 21:58:36	Chesney Hawkes	The One And Only	0	3:27	1991	80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Chesney Hawkes - The One And Only.mp3
 21:59:59	Bangles	Manic Monday	18	2:57	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Bangles - Manic Monday.mp3
@@ -576,25 +577,25 @@ N 22:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 22:00:00	Eighties Planet.com	Another Hour Of ..sung Only	0	0:06	2021	HOUROPEN	80	C:\server_root\generic\80s\audio-2017\HOUROPEN\80	\Eighties Planet.com - Vox Only.mp3
 22:00:06	Who	You Better You Bet	13	5:18	1981	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Who - You Better You Bet.mp3
 22:05:30	Dead Or Alive	You Spin Me Round	15	3:03	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Dead Or Alive - You Spin Me Round.mp3
-22:08:36	Diana Ross	Upside Down	10	3:26	1980	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Diana Ross - Upside Down.mp3
-22:12:06	Cyndi Lauper	Time After Time	15	3:48	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Cyndi Lauper - Time After Time.mp3
 22:15:59	Dexys Midnight Runners	Come On Eileen	2	3:52	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Dexys Midnight Runners - Come On Eileen.mp3
+22:27:48	Men Without Hats	Safety Dance	10	2:39	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Men Without Hats - Safety Dance.mp3
+22:08:36	Diana Ross	Upside Down	10	3:26	1980	80STOP50	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Diana Ross - Upside Down.mp3
 22:19:56	J Geils Band	Centerfold	17	3:30	1982	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\J Geils Band - Centerfold.mp3
 22:23:31	Female Vo	This Is Www Dot 80s Planet Dot	0	0:04	2010	GIRLYDRY	80	C:\server_root\generic\80s\audio-2017\DRY\80	\Female Vo - This Is Www Dot 80s Planet Dot.mp3
-22:23:35	Dionne Warwick	Heartbreaker	22	4:08	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Dionne Warwick - Heartbreaker.mp3
-22:27:48	Men Without Hats	Safety Dance	10	2:39	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Men Without Hats - Safety Dance.mp3
+22:38:42	Bryan Adams	Summer Of '69	6	3:17	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S_SUMMER\1\Opener	\Bryan Adams - Summer Of '69.mp3
+22:12:06	Cyndi Lauper	Time After Time	15	3:48	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Cyndi Lauper - Time After Time.mp3
 22:30:30	Men At Work	Down Under	11	3:24	1983	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Men at Work - Down Under.mp3
 22:33:58	Eighties Planet.com	Just Sung Tag	0	0:02	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet.com - Just Sung Tag.mp3
-22:34:00	Whitney Houston	I Wanna Dance With Somebody	12	4:37	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Whitney Houston - I Wanna Dance With Somebody.mp3
-22:38:42	Bryan Adams	Summer Of '69	6	3:17	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S_SUMMER\1\Opener	\Bryan Adams - Summer Of '69.mp3
-22:42:03	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 22:42:07	Kenny Loggins	Footloose	29	3:39	1984	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Kenny Loggins - Footloose.mp3
 22:45:51	Boy Meets Girl	Waiting For A Star To Fall	35	4:10	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\Boy Meets Girl - Waiting For A Star To Fall.mp3
+22:42:03	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
 22:50:06	Huey Lewis And The News	The Power Of Love	21	3:45	1985	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Huey Lewis And The News - The Power Of Love.mp3
 22:53:56	Van Halen	Why Can't This Be Love	19	3:23	1986	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Van Halen - Why Can't This Be Love.mp3
+22:34:00	Whitney Houston	I Wanna Dance With Somebody	12	4:37	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Whitney Houston - I Wanna Dance With Somebody.mp3
+22:59:59	Tone Loc	Wild Thing	32	3:54	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\TONE LOC - WILD THING.mp3
 N 22:57:23 ** EXTRA SONGS FOR TIMEOUT **		
 22:57:23	Luther Vandross	Stop To Love	14	5:01	1987	80S	1	C:\server_root\generic\80s\audio-2017\80S\1	\Luther Vandross - Stop To Love.mp3
-22:59:59	Tone Loc	Wild Thing	32	3:54	1989	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\TONE LOC - WILD THING.mp3
+22:23:35	Dionne Warwick	Heartbreaker	22	4:08	1982	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Dionne Warwick - Heartbreaker.mp3
 22:59:59	Cure	Boys Don't Cry	22	2:28	1986	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Cure - Boys Don't Cry.mp3
 N 23:00:00 New Hour Starts - Hour 23			
 N 23:00:00 **CLOCK: obvious.clk **		
@@ -614,11 +615,11 @@ N 23:00:00 **ONLY OBVIOUS *** ||| MEGAHITS ONLY
 23:34:08	Christopher Cross	Arthurs Theme	15	3:41	1981	OBV80S	1	C:\server_root\generic\80s\audio-2017\80STOP50\1\Opener	\Christopher Cross - Arthurs Theme.mp3
 23:37:54	U2	I Still Haven't Found What I'm Looking For	19	4:23	1987	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1	\U2 - I Still Haven't Found What I'm Looking For.mp3
 23:42:22	Eighties Planet Id	Eighties Planet Sung Stab	0	0:04	2021	ID	81	C:\server_root\generic\80s\audio-2017\ID\81	\Eighties Planet ID.mp3
-23:42:26	Alan Parsons Project	Eye In The Sky	18	3:45	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1\Opener	\Alan Parsons Project - Eye In The Sky.mp3
+23:59:59	Kim Wilde	Kids in America	0	3:18	1982	80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1	\Kim Wilde - Kids in America.mp3
 23:46:15	Pet Shop Boys	West End Girls	45	3:40	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1\Opener	\Pet Shop Boys - West End Girls.mp3
-23:50:00	Asia	Heat Of The Moment	10	3:37	1982	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Asia - Heat Of The Moment.mp3
+23:42:26	Alan Parsons Project	Eye In The Sky	18	3:45	1985	OBV80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1\Opener	\Alan Parsons Project - Eye In The Sky.mp3
 23:53:41	Blondie	The Tide Is High	37	4:22	1980	OBV80S	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Blondie - The Tide is High.mp3
 N 23:58:08 ** EXTRA SONGS FOR TIMEOUT **		
-23:59:59	Kim Wilde	Kids in America	0	3:18	1982	80S	1	C:\server_root\generic\80s\audio-2017\_BIG80S\1	\Kim Wilde - Kids in America.mp3
+23:50:00	Asia	Heat Of The Moment	10	3:37	1982	80STOP50	1	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Asia - Heat Of The Moment.mp3
 23:59:59	Roxette	It Must Have Been Love	5	4:08	1988	OBV80S	1	C:\server_root\generic\80s\audio-2017\OBV80S\1\Opener	\Roxette - It Must Have Been Love.mp3
 23:59:59	Queen	We Will Rock You	0	1:58	1977	OBV80S	2	C:\server_root\generic\80s\audio-2017\80S\1\Opener	\Queen - We Will Rock You.mp3

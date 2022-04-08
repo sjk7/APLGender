@@ -5,9 +5,11 @@
 // http://www.viva64.com
 // ReSharper disable CppClangTidyCertErr34C
 // ReSharper disable CppClangTidyConcurrencyMtUnsafe
+#include "../../../utils/file_iterator.hpp"
 #include "../../../utils/my_timing.hpp"
 #include "../../../utils/my_utils.hpp"
 #include "../../../utils/gender.hpp"
+
 #include <iostream>
 #include <vector>
 #include <array>
@@ -19,6 +21,32 @@ using namespace std;
 std::string g_playlist_file;
 std::string g_gender_file{"ArtistsGENDER.txt"};
 bool g_verbose = false;
+
+std::string now() {
+    const time_t t = time(nullptr);
+    struct tm buf = {};
+    char str[26] = {};
+    localtime_s(&buf, &t);
+    asctime_s(str, sizeof str, &buf);
+    const std::string s(str);
+    return s.substr(0, s.size() - 1); // get rid of '\n'
+}
+
+std::string make_breaknote(
+    const std::string_view note1 = "*** Gender conditioned ***",
+    const std::string_view note2 = "") {
+
+    std::string ret("N 00:00:00 ");
+    ret += note1;
+    ret += "|||";
+    if (note2.empty()) {
+        ret += now();
+    } else {
+        ret += note2;
+    }
+    ret += '\t';
+    return ret;
+}
 
 void usage(const int argc, char** argv) {
     cout << "Usage: " << endl;
@@ -162,7 +190,7 @@ using hour_cuts_iterator = std::vector<artist_info>::iterator;
 auto find_adjacent_males(
     std::vector<artist_info>& hour_cuts, const hour_cuts_iterator& where) {
 
-    return std::adjacent_find(
+    auto ret = std::adjacent_find(
         where, hour_cuts.end(), [](const auto& cut1, const auto& cut2) {
             return static_cast<int>(cut1.gender)
                 == static_cast<int>(cut2.gender)
@@ -172,6 +200,7 @@ auto find_adjacent_males(
                 && (cut2.dur > limits::jingle_ad_len
                     && cut2.dur < limits::max_song_len);
         });
+    return ret;
 }
 
 auto find_adjacent_non_males(
@@ -243,15 +272,24 @@ using sv_vector_t = std::vector<std::string_view>;
 using cuts_in_hour_t = std::vector<std::vector<artist_info>>;
 using hour_iterator_t = std::vector<artist_info>::iterator;
 
-hour_iterator_t& search_adjacent_males(int& best_effort, const int hour,
+hour_iterator_t search_adjacent_males(int& best_effort, const int hour,
     vector<artist_info>& this_hours_cuts, long& ctr,
     hour_iterator_t& search_pos, hour_iterator_t& two_males) {
 
     while (two_males == this_hours_cuts.end()) {
 
         two_males = find_adjacent_males(this_hours_cuts, search_pos);
+
         if (search_pos == this_hours_cuts.begin()
             && two_males == this_hours_cuts.end()) {
+
+            if (this_hours_cuts.size() > 2) {
+                if (const hour_iterator_t it = --this_hours_cuts.end();
+                    it->is_male()) {
+                    best_effort++;
+                    return it;
+                }
+            }
             cerr << "In hour: " << hour
                  << ": no more double males before the two "
                     "females, and none after, so I have to "
@@ -270,6 +308,7 @@ hour_iterator_t& search_adjacent_males(int& best_effort, const int hour,
         --search_pos;
         ++ctr;
     }
+
     return two_males;
 }
 
@@ -328,12 +367,16 @@ void reorder_cuts_in_hours(sv_vector_t& file_lines,
         int hour_for = -1;
         int swaps = -1;
     };
+
+    struct attempts_t {
+        int hour_for = -1;
+        int attempts = -1;
+    };
     swaps_t running_swaps;
+    attempts_t running_attempts;
 
     const auto my_playlist_file
         = my::utils::file_get_name(g_playlist_file, true);
-    my::stopwatch sw(
-        my::utils::strings::concat("Reordering ", my_playlist_file, " took:"));
 
     int best_effort = 0;
 
@@ -352,7 +395,6 @@ void reorder_cuts_in_hours(sv_vector_t& file_lines,
         auto two_females = this_hours_cuts.end();
         auto search_pos{two_females}; // don't want warning about possibly
                                       // unintentionally copied.
-
         int swaps = 0;
         while (best_effort == 0) {
 
@@ -368,9 +410,15 @@ void reorder_cuts_in_hours(sv_vector_t& file_lines,
                 two_females = find_adjacent_non_males(
                     this_hours_cuts, this_hours_cuts.begin());
 
+                if (two_females == this_hours_cuts.end()) {
+                    // life is good, no more adjacent females in this hour!
+                    best_effort++;
+                    break;
+                }
                 if (search_adjacent_females(hour, ctr, two_females, search_pos,
                         this_hours_cuts, swaps)
                     == this_hours_cuts.end()) {
+                    best_effort++;
                     // life is good, no more adjacent females in this hour!
                     break;
                 }
@@ -379,6 +427,39 @@ void reorder_cuts_in_hours(sv_vector_t& file_lines,
             auto two_males = this_hours_cuts.end();
             two_males = search_adjacent_males(
                 best_effort, hour, this_hours_cuts, ctr, search_pos, two_males);
+            if (best_effort && two_males == this_hours_cuts.end() - 1) {
+
+                // this means put the female _after_ the last remaining male at
+                // the end of the hour. This fine for this_hours_cuts, but not
+                // so fine for the file_lines, because they are string views and
+                // there we can only swap items around. So, my strategy here is
+                // to swap one of the females, with the male at the end, and
+                // re-process the hour.
+
+                ++swaps;
+                if (swaps > running_swaps.swaps) {
+                    running_swaps.hour_for = hour;
+                    running_swaps.swaps = swaps;
+                }
+
+                auto& f = *two_females;
+                auto& m = *two_males;
+                auto& lf = file_lines[f.line_number_orig];
+                auto& ff = file_lines[m.line_number_orig];
+                std::swap(f, m);
+                std::swap(ff, lf);
+                ++ctr;
+                if (ctr > running_attempts.attempts) {
+                    ++running_attempts.attempts;
+                    running_attempts.hour_for = hour;
+                }
+                best_effort--;
+                two_females = this_hours_cuts.end();
+                two_males = this_hours_cuts.begin();
+                search_pos = this_hours_cuts.begin();
+                continue;
+            }
+
             if (best_effort) {
                 continue;
             }
@@ -415,15 +496,33 @@ void reorder_cuts_in_hours(sv_vector_t& file_lines,
                 = this_hours_cuts.end(); // reset for checking after the change
 
             ++ctr;
+            if (ctr > running_attempts.attempts) {
+                ++running_attempts.attempts;
+                running_attempts.hour_for = hour;
+            }
         } // while (best_effort == 0)
         print_hour(this_hours_cuts, hour, "", true);
 
     } //  //for (auto iter = hours_to_fix...
 
-    sw.stop_and_print();
-    cout << "Most swaps in hour: " << running_swaps.hour_for << " ("
-         << running_swaps.swaps << ")." << endl;
-    cout << endl;
+    if (running_swaps.hour_for < 0) {
+        // cout << "No swaps carried out in this playlist " << endl;
+    } else {
+        if (g_verbose) {
+            cout << "Most swaps in hour: " << running_swaps.hour_for << " ("
+                 << running_swaps.swaps << ")." << endl;
+            cout << endl;
+        }
+    }
+
+    if (running_attempts.hour_for < 0) {
+    } else {
+        // if (g_verbose) {
+        cout << "Most attempts in hour: " << running_attempts.hour_for << " ("
+             << running_attempts.attempts << ")." << endl;
+        cout << endl;
+        //}
+    }
 }
 
 auto is_fixable_hour(artists_in_hours_t::value_type& hour, const int ihour) {
@@ -511,30 +610,34 @@ int pop_items(const gender_map_t& genders_by_artist, int& line_num,
             } else {
                 if (!warned.contains(artist)) {
 
-                    cerr << "**** NOTE: "
-                         << "gender look-up for artist: " << std::string(artist)
-                         << " not available, assuming female." << endl;
+                    if (g_verbose)
+                        cerr << "**** NOTE: "
+                             << "gender look-up for artist: "
+                             << std::string(artist)
+                             << " not available, assuming female." << endl;
                 }
                 warned.emplace(artist, artist);
                 assert(!warned.empty());
             }
 
-            // DO NOT put reserved items in here, otherwise std::adjacent_find
-            // will not work!
+            // DO NOT put reserved items in here, otherwise
+            // std::adjacent_find will not work!
             if (auto ai = artist_info(line_num, artist, secs, gender);
                 ai.is_song()) {
                 arts_in_hour.emplace_back(ai);
             } else {
                 if (!warned_defs.contains(artist)) {
-                    cout << ai.to_short_string()
-                         << " does not fit the definition of a 'song'." << endl;
+                    if (g_verbose)
+                        cout << ai.to_short_string()
+                             << " does not fit the definition of a 'song'."
+                             << endl;
                     warned_defs.emplace(artist, artist);
                 }
             }
         }
         line_num++;
     }
-    cout << endl;
+    if (g_verbose) cout << endl;
 
     return my::no_error;
 }
@@ -564,23 +667,34 @@ int sanity(const int parse_result, const int argc, char** argv) {
 void print_after_reordered(
     artists_in_hours_t& artists_in_hours, std::map<int, size_t>& hours_to_fix) {
     hours_to_fix.clear();
-    cout << "#################### After reordering applied "
-            "####################\n";
+
     int ihour_for = 0;
+    int ctr = 0;
     for (auto& hour : artists_in_hours) {
-        print_hour(hour, ihour_for, " after processing ");
         if (auto where = is_fixable_hour(hour, ihour_for);
             where != hour.end()) {
+            if (ctr == 0) {
+                cout << "#################### After reordering applied "
+                     << "####################\n";
+                ++ctr;
+            }
+            print_hour(hour, ihour_for, " after processing ", true);
             hours_to_fix[ihour_for] = ihour_for;
             cerr << "WARNING: hour " << ihour_for
                  << " still has consecutive females around:\n"
-                 << *where << endl;
+                 << *where << '\n'
+                 << *(where + 1) << endl;
             assert(0); // what? you didn't do it 100%!
+        } else {
+            print_hour(hour, ihour_for, " after processing ");
         }
+
         ++ihour_for;
     }
-    cout << "####################                       "
-            "####################\n";
+    if (ctr > 0) {
+        cout << "####################                       "
+                "####################\n";
+    }
 }
 
 auto find_fixable_hours(artists_in_hours_t artists_in_hours) {
@@ -599,46 +713,59 @@ auto find_fixable_hours(artists_in_hours_t artists_in_hours) {
     return hours_to_fix;
 }
 
-
-int mymain(int argc, char** argv) {
-
-    my::stopwatch sw("Program execution took: ");
-    std::vector<std::string> args(argv + 1, argv + argc);
-
-    if (args.size() == 1) { // allow dnd of playlist file onto exe
-        const auto& a = args[0];
-        g_playlist_file = a;
-
-    } else {
-        const auto parse_result = parse_args(args);
-        cout << "Program starting ..." << endl;
-
-        if (int san_result = sanity(parse_result, argc, argv);
-            san_result != my::no_error) {
-            exit(san_result);
-        }
-    }
+bool process() {
 
     if (g_playlist_file.size() < 4) {
         cerr << "Cannot continue, playlist file path: " << g_playlist_file
-             << " is empty or too short. Please provide one on the command line"
+             << " is empty or too short. Please provide one on the command "
+                "line"
              << endl;
         Sleep(3000);
         exit(-7777);
     }
 
-    std::vector<std::string_view> gender_lines{};
-    auto genders_by_artist = make_genders(g_gender_file, gender_lines);
-    if (genders_by_artist.size() < 10) {
-        cerr << "Not enough artists in genderfile: " << g_gender_file << endl;
-        return -105;
+    if (!my::utils::file_exists(g_playlist_file)) {
+        cerr << "Cannot continue, playlist file path: " << g_playlist_file
+             << " does not exist. "
+             << "\nNOTE: working directory is:\n"
+             << my::utils::getcwd() << my::utils::getcwd() << endl;
+        Sleep(3000);
+        exit(-7777);
     }
 
-    const auto tmp_file = my::utils::file_copy(g_playlist_file);
-    if (tmp_file.empty()) {
-        cerr << "Unable to make temp copy of " << g_playlist_file << endl;
-        return -4;
+    if (!my::utils::file_exists(g_gender_file)) {
+        cerr << "Cannot continue, gender file path: " << g_gender_file
+             << " does not exist. "
+             << "\nNOTE: working directory is:\n"
+             << my::utils::getcwd() << my::utils::getcwd() << endl;
+        Sleep(3000);
+        exit(-7777);
     }
+
+    if (g_verbose)
+        cout << "Processing file " << g_playlist_file << " ..." << endl;
+
+    static std::vector<std::string_view> gender_lines{};
+    static auto genders_by_artist = make_genders(g_gender_file, gender_lines);
+
+    if (gender_lines.empty()) {
+        cerr << "gender lines are empty " << endl;
+        return false;
+    }
+
+    if (genders_by_artist.size() < 10) {
+        cerr << "Not enough artists in genderfile: " << g_gender_file << endl;
+        return false;
+    }
+
+    std::string tmp_file;
+    if (const auto error = my::utils::file_copy(g_playlist_file, tmp_file);
+        error != std::error_code()) {
+        cerr << "Unable to make temp copy of " << g_playlist_file << endl;
+        cerr << "Error was: " << error << endl;
+        return false;
+    }
+    assert(!tmp_file.empty());
 
     std::string playlist_file_data;
     if (auto ec
@@ -646,7 +773,7 @@ int mymain(int argc, char** argv) {
         ec.code() != std::error_code()) {
         cerr << "Failed to read all contents of playlist file: " << tmp_file
              << ": " << ec.what() << endl;
-        return -5;
+        return false;
     }
 
     auto file_lines = my::utils::strings::split<std::string_view>(
@@ -655,7 +782,7 @@ int mymain(int argc, char** argv) {
     if (file_lines.size() < 16) {
         cerr << "Not continuing, less than 16 lines in file: "
              << g_playlist_file << endl;
-        return -6;
+        return false;
     }
 
     artists_in_hours_t artists_in_hours;
@@ -679,10 +806,17 @@ int mymain(int argc, char** argv) {
     reorder_cuts_in_hours(file_lines, artists_in_hours, m);
     print_after_reordered(artists_in_hours, m);
 
-    cout << endl;
+    if (g_verbose) cout << endl;
     std::string tmp_name = std::to_string(std::time(nullptr));
     tmp_name += ".tmp";
 
+    std::string bn = make_breaknote();
+    if (file_lines[0].find("*** Gender conditioned ***") == std::string::npos) {
+
+        file_lines.insert(file_lines.begin(), bn);
+    } else {
+        file_lines[0] = bn;
+    }
     if (auto err = my::utils::file_write_all(file_lines, tmp_name);
         err.code() != std::error_code()) {
         cerr << "FATAL: failed to write to temp file: " << tmp_file << endl;
@@ -705,11 +839,54 @@ int mymain(int argc, char** argv) {
             exit(-10000);
         }
     }
-    if (!g_verbose) Sleep(1000);
+
+    return true;
+}
+
+int mymain(int argc, char** argv) {
+
+    if (g_verbose) my::stopwatch sw("Program execution took: ");
+
+    std::vector<std::string> args(argv + 1, argv + argc);
+
+    if (args.size() == 1) { // allow dnd of playlist file onto exe
+        const auto& a = args[0];
+        g_playlist_file = a;
+
+    } else {
+        const auto parse_result = parse_args(args);
+        cout << "Program starting ..." << endl;
+
+        if (const int san_result = sanity(parse_result, argc, argv);
+            san_result != my::no_error) {
+            exit(san_result);
+        }
+    }
+
+    if (const auto retval = process()) {
+        return 0;
+    } else {
+        return -10000;
+    }
     return 0;
 }
 
-int main(int argc, char** argv) {
+int main(const int argc, char** argv) {
+
+    auto dir = std::string(my::utils::getcwd());
+    dir += my::utils::PATH_SEP_STR;
+    my::listdir(dir.data(), [&](const auto& entry) {
+        if (my::is_directory(entry)) {
+
+        } else {
+            if (std::string_view{entry->d_name}.ends_with(".apl")) {
+                g_playlist_file = std::string(dir);
+                g_playlist_file += std::string(entry->d_name);
+                process();
+            }
+        }
+        return 0;
+    });
 
     try {
         const int ret = mymain(argc, argv);
