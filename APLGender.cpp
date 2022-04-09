@@ -5,6 +5,7 @@
 // http://www.viva64.com
 // ReSharper disable CppClangTidyCertErr34C
 // ReSharper disable CppClangTidyConcurrencyMtUnsafe
+// ReSharper disable CppUseRangeAlgorithm
 #include "../../../utils/file_iterator.hpp"
 #include "../../../utils/my_timing.hpp"
 #include "../../../utils/my_utils.hpp"
@@ -187,14 +188,14 @@ auto make_genders(const std::string_view gender_file_path,
 
 using hour_cuts_iterator = std::vector<artist_info>::iterator;
 
-auto find_adjacent_males(
-    std::vector<artist_info>& hour_cuts, const hour_cuts_iterator& where) {
+auto find_adjacent_males(std::vector<artist_info>& hour_cuts,
+    const hour_cuts_iterator& where,
+    gender_t consider_as_male = gender_t::male) {
 
-    auto ret = std::adjacent_find(
-        where, hour_cuts.end(), [](const auto& cut1, const auto& cut2) {
-            return static_cast<int>(cut1.gender)
-                == static_cast<int>(cut2.gender)
-                && cut1.gender >= gender_t::male
+    auto ret = std::adjacent_find(where, hour_cuts.end(),
+        [consider_as_male](const auto& cut1, const auto& cut2) {
+            return cut2.gender >= consider_as_male
+                && cut1.gender >= consider_as_male
                 && (cut1.dur > limits::jingle_ad_len
                     && cut1.dur < limits::max_song_len)
                 && (cut2.dur > limits::jingle_ad_len
@@ -203,12 +204,13 @@ auto find_adjacent_males(
     return ret;
 }
 
-auto find_adjacent_non_males(
+auto find_adjacent_females(
     std::vector<artist_info>& hour_cuts, const hour_cuts_iterator& where) {
     return std::adjacent_find(
         where, hour_cuts.end(), [](const auto& cut1, const auto& cut2) {
-            return (cut2.gender < gender_t::male)
-                && (cut1.gender < gender_t::male)
+            return (cut2.gender <= gender_t::female) // must be <= to account
+                                                     // for assume_female
+                && (cut1.gender <= gender_t::female)
                 && (cut1.dur > limits::jingle_ad_len
                     && cut1.dur < limits::max_song_len)
                 && (cut2.dur > limits::jingle_ad_len
@@ -228,7 +230,9 @@ void check_iters(const Collection& c, typename C::const_iterator iter1,
 
 // swapping hour items and enforcing sanity.
 void checked_swap(std::vector<std::string_view>& file_lines, artist_info& a1,
-    artist_info& a2) {
+    artist_info& a2, int hour_for) {
+
+    (void)hour_for;
     // we should not be swapping any reserved cuts
     const auto d1 = a1.dur;
     const auto d2 = a2.dur;
@@ -243,6 +247,14 @@ void checked_swap(std::vector<std::string_view>& file_lines, artist_info& a1,
     // swap these original file lines also:
     auto& a = file_lines[a1.line_number_orig];
     auto& b = file_lines[a2.line_number_orig];
+    /*/ fixme: only when evo fixed!
+    auto first_two = std::string(a.substr(0, 2));
+    auto line_hour_for = std::atoi(first_two.c_str());
+    assert(line_hour_for == hour_for);
+    first_two = std::string(b.substr(0, 2));
+    line_hour_for = std::atoi(first_two.c_str());
+    assert(line_hour_for == hour_for);
+    /*/
 
     if (&a != &b) {
         swap(a, b);
@@ -272,75 +284,6 @@ using sv_vector_t = std::vector<std::string_view>;
 using cuts_in_hour_t = std::vector<std::vector<artist_info>>;
 using hour_iterator_t = std::vector<artist_info>::iterator;
 
-hour_iterator_t search_adjacent_males(int& best_effort, const int hour,
-    vector<artist_info>& this_hours_cuts, long& ctr,
-    hour_iterator_t& search_pos, hour_iterator_t& two_males) {
-
-    while (two_males == this_hours_cuts.end()) {
-
-        two_males = find_adjacent_males(this_hours_cuts, search_pos);
-
-        if (search_pos == this_hours_cuts.begin()
-            && two_males == this_hours_cuts.end()) {
-
-            if (this_hours_cuts.size() > 2) {
-                if (const hour_iterator_t it = --this_hours_cuts.end();
-                    it->is_male()) {
-                    best_effort++;
-                    return it;
-                }
-            }
-            cerr << "In hour: " << hour
-                 << ": no more double males before the two "
-                    "females, and none after, so I have to "
-                    "give up here :-("
-                 << endl
-                 << endl;
-
-            ++best_effort;
-            ++ctr;
-            break;
-        }
-        if (search_pos == this_hours_cuts.begin()) {
-            ++ctr;
-            continue;
-        }
-        --search_pos;
-        ++ctr;
-    }
-
-    return two_males;
-}
-
-vector<artist_info>::iterator search_adjacent_females(const int hour,
-    const long ctr, vector<artist_info>::iterator& two_females,
-    vector<artist_info>::iterator& search_pos,
-    vector<artist_info>& this_hours_cuts, const int swaps) {
-
-    if (two_females != this_hours_cuts.end()) {
-        search_pos = two_females;
-        if (g_verbose) {
-            cout << "\nIn hour: " << hour
-                 << ", two adjacent non-males found at the junction of: "
-                 << endl
-                 << *two_females << " and" << endl
-                 << *++two_females << endl;
-            --two_females;
-        }
-    } else {
-
-        if (g_verbose) {
-            cout << "Hour " << hour
-                 << " has no adjacent female plays, after: " << ctr
-                 << " attempts, and " << swaps << " items swapped" << endl
-                 << endl;
-            cout << "--------------------------------------------------"
-                    "----"
-                    "\n\n\n";
-        }
-    }
-    return two_females;
-}
 using artists_in_hours_t = std::vector<std::vector<artist_info>>;
 using intmap_t = std::map<int, int>;
 
@@ -358,153 +301,13 @@ void print_hour(const artists_in_hours_t::value_type& hour, const int hour_for,
            << " complete ----------------------\n\n";
     }
 }
+struct ctr_t {
+    int hour_for = -1;
+    int ctr = 0;
+};
 
-void reorder_cuts_in_hours(sv_vector_t& file_lines,
-    cuts_in_hour_t& artists_in_hours,
-    const std::map<int, size_t>& hours_to_fix) {
-
-    struct swaps_t {
-        int hour_for = -1;
-        int swaps = -1;
-    };
-
-    struct attempts_t {
-        int hour_for = -1;
-        int attempts = -1;
-    };
-    swaps_t running_swaps;
-    attempts_t running_attempts;
-
-    const auto my_playlist_file
-        = my::utils::file_get_name(g_playlist_file, true);
-
-    int best_effort = 0;
-
-    for (auto cut_iterator = hours_to_fix.begin();
-         cut_iterator != hours_to_fix.end(); ++cut_iterator) {
-
-        if (g_verbose) {
-            std::cout << "Fixing up hour: " << cut_iterator->first << ":"
-                      << " line:" << cut_iterator->second << std::endl;
-        }
-        // get where we have the clash in the hour:
-        const auto hour = cut_iterator->first;
-        auto& this_hours_cuts = artists_in_hours[hour];
-        best_effort = 0;
-        long ctr = 0;
-        auto two_females = this_hours_cuts.end();
-        auto search_pos{two_females}; // don't want warning about possibly
-                                      // unintentionally copied.
-        int swaps = 0;
-        while (best_effort == 0) {
-
-            if (check_attempts(
-                    ctr, limits::max_attempts, swaps, limits::max_swaps, hour)
-                != my::no_error) {
-                best_effort++;
-                continue; // move on to next hour
-            }
-
-            if (two_females == this_hours_cuts.cend()) {
-
-                two_females = find_adjacent_non_males(
-                    this_hours_cuts, this_hours_cuts.begin());
-
-                if (two_females == this_hours_cuts.end()) {
-                    // life is good, no more adjacent females in this hour!
-                    best_effort++;
-                    break;
-                }
-                if (search_adjacent_females(hour, ctr, two_females, search_pos,
-                        this_hours_cuts, swaps)
-                    == this_hours_cuts.end()) {
-                    best_effort++;
-                    // life is good, no more adjacent females in this hour!
-                    break;
-                }
-            }
-
-            auto two_males = this_hours_cuts.end();
-            two_males = search_adjacent_males(
-                best_effort, hour, this_hours_cuts, ctr, search_pos, two_males);
-            if (best_effort && two_males == this_hours_cuts.end() - 1) {
-
-                // this means put the female _after_ the last remaining male at
-                // the end of the hour. This fine for this_hours_cuts, but not
-                // so fine for the file_lines, because they are string views and
-                // there we can only swap items around. So, my strategy here is
-                // to swap one of the females, with the male at the end, and
-                // re-process the hour.
-
-                ++swaps;
-                if (swaps > running_swaps.swaps) {
-                    running_swaps.hour_for = hour;
-                    running_swaps.swaps = swaps;
-                }
-
-                auto& f = *two_females;
-                auto& m = *two_males;
-                auto& lf = file_lines[f.line_number_orig];
-                auto& ff = file_lines[m.line_number_orig];
-                std::swap(f, m);
-                std::swap(ff, lf);
-                ++ctr;
-                if (ctr > running_attempts.attempts) {
-                    ++running_attempts.attempts;
-                    running_attempts.hour_for = hour;
-                }
-                best_effort--;
-                two_females = this_hours_cuts.end();
-                two_males = this_hours_cuts.begin();
-                search_pos = this_hours_cuts.begin();
-                continue;
-            }
-
-            if (best_effort) {
-                continue;
-            }
-            check_iters(this_hours_cuts, two_males, two_females);
-            if (g_verbose) {
-                cout << "\nIn hour: " << hour
-                     << ", nearest two consecutive males found at the junction "
-                        "of: "
-                     << endl
-                     << *two_males << " and" << endl
-                     << *++two_males << endl
-                     << endl;
-
-                --two_males;
-            }
-
-            auto& swap_with = two_males;
-            assert(swap_with >= this_hours_cuts.begin());
-            using std::swap;
-            if (g_verbose) {
-                cout << "\nIn hour: " << hour << ", swapping\n"
-                     << *swap_with << " with:\n"
-                     << *two_females << endl
-                     << endl;
-            }
-
-            checked_swap(file_lines, *swap_with, *two_females);
-            ++swaps;
-            if (swaps > running_swaps.swaps) {
-                running_swaps.hour_for = hour;
-                running_swaps.swaps = swaps;
-            }
-            two_females
-                = this_hours_cuts.end(); // reset for checking after the change
-
-            ++ctr;
-            if (ctr > running_attempts.attempts) {
-                ++running_attempts.attempts;
-                running_attempts.hour_for = hour;
-            }
-        } // while (best_effort == 0)
-        print_hour(this_hours_cuts, hour, "", true);
-
-    } //  //for (auto iter = hours_to_fix...
-
+/*/
+void show_running_totals(swaps_t running_swaps, attempts_t running_attempts) {
     if (running_swaps.hour_for < 0) {
         // cout << "No swaps carried out in this playlist " << endl;
     } else {
@@ -524,28 +327,66 @@ void reorder_cuts_in_hours(sv_vector_t& file_lines,
         //}
     }
 }
+/*/
+
+int increment(ctr_t& t) {
+    return t.ctr++;
+}
+
+struct hour_info_t {
+    int hour_for = -1;
+    int males = -1;
+    int females = -1;
+    gender_t accept_as_male = gender_t::male;
+    bool success_expected = true;
+};
+
+void decide_accept_mf_as_male(
+    vector<artist_info>& items, const int hour_for, hour_info_t& info) {
+
+    auto n_males = static_cast<size_t>(std::count_if(
+        items.begin(), items.end(), [](const auto& a) { return a.is_male(); }));
+    const auto n_females = items.size() - n_males;
+    const hour_info_t inf{hour_for, static_cast<int>(n_males),
+        static_cast<int>(n_females), gender_t::male};
+    info = inf;
+    if (n_males < n_females) {
+        n_males = std::count_if(items.begin(), items.end(),
+            [](const auto& a) { return a.contains_male(); });
+        if (n_males > inf.males) {
+            info.males = static_cast<int>(n_males);
+            info.accept_as_male = gender_t::male_female;
+            if (info.males < info.females) {
+                info.success_expected = false;
+            }
+        }
+    }
+}
 
 auto is_fixable_hour(artists_in_hours_t::value_type& hour, const int ihour) {
 
+    assert(ihour < 25);
     if (hour.size() < limits::not_enough_cuts_in_hour) {
         cout << "Hour: " << ihour << " has less than "
-             << limits::not_enough_cuts_in_hour
+             << limits::not_enough_cuts_in_hour << " cuts in hour"
              << ", so is not eligible for gender separation." << endl
              << endl;
         return hour.end();
     }
-    const auto found = find_adjacent_non_males(hour, hour.begin());
+    const auto found = find_adjacent_females(hour, hour.begin());
 #ifndef NDEBUG
     artist_info prev;
 
     for (const auto& item : hour) {
 
-        if (!prev.is_male() && !item.is_male() && prev.is_song()
+        if (prev.is_female() && item.is_female() && prev.is_song()
             && item.is_song()) {
             if (!prev.is_empty()) {
-                cout << "Found two non-males @\n"
-                     << prev << "\n"
-                     << item << endl;
+                if (g_verbose) {
+                    cout << "Found two non-males in " << ihour << " @\n"
+                         << prev << "\n"
+                         << item << endl;
+                }
                 assert(*found == prev);
                 return found; // good enough
             }
@@ -556,6 +397,100 @@ auto is_fixable_hour(artists_in_hours_t::value_type& hour, const int ihour) {
     return found;
 }
 
+void reorder_cuts_in_hours(sv_vector_t& file_lines,
+    cuts_in_hour_t& artists_in_hours,
+    const std::map<int, size_t>& hours_to_fix) {
+
+    ctr_t ctr;
+
+    for (auto hr_iter = hours_to_fix.begin(); hr_iter != hours_to_fix.end();
+         ++hr_iter) {
+
+        const int hour_for = hr_iter->first;
+        auto& items = artists_in_hours[hour_for];
+        hour_info_t hour_info;
+        decide_accept_mf_as_male(items, hour_for, hour_info);
+
+        int success = 0;
+
+        // end here could be where ETM is found, if any
+        auto fems = find_adjacent_females(items, items.begin());
+        std::vector<artist_info>::iterator find_after = fems;
+        while (fems != items.end()) {
+            assert(fems->gender <= gender_t::female);
+            auto males = find_adjacent_males(
+                items, find_after, hour_info.accept_as_male);
+            if (males != items.end()) {
+                assert(males->gender >= hour_info.accept_as_male);
+            }
+            if (males == items.end()) {
+                if (items.back().is_male()) {
+                    checked_swap(file_lines, *(items.end() - 1), *fems,
+                        hour_info.hour_for);
+                    fems = find_adjacent_females(items, fems);
+                    continue;
+                } else {
+                    if (auto men = find_adjacent_males(
+                            items, items.begin(), hour_info.accept_as_male);
+                        men == items.end()) {
+                        // this really is the best we can do: no more
+                        // consecutive males in the hour! so just move the final
+                        // clash to the end of the hour and hope it's back timed
+                        // away.
+                        // ReSharper disable once CppTooWideScopeInitStatement
+                        auto last_male = std::find_if(
+                            items.rbegin(), items.rend(), [](const auto& info) {
+                                return info.contains_male();
+                            });
+                        if (last_male != items.rend()) {
+                            checked_swap(file_lines, *last_male, *fems,
+                                hour_info.hour_for);
+                        }
+                        // should find B-52s
+                        men = find_adjacent_males(
+                            items, items.begin(), hour_info.accept_as_male);
+                        success = -1;
+                        break;
+                    } else {
+                        find_after = men;
+                        continue;
+                    }
+                }
+            }
+            assert(males->gender >= hour_info.accept_as_male);
+            assert(fems->gender <= gender_t::female);
+            checked_swap(file_lines, *males, *fems++, hour_info.hour_for);
+            fems = find_adjacent_females(items, fems);
+            if (fems == items.end()) {
+                fems = find_adjacent_females(items, items.begin());
+            }
+            ++find_after;
+        }
+
+        success = (fems == items.end());
+
+        if (hour_info.success_expected) {
+            if (is_fixable_hour(items, hour_for) != items.end()) {
+                fems = find_adjacent_females(items, items.begin());
+                assert(0);
+            }
+        } else {
+            // it was an impossible task. I did what I could.
+            // Just too many females.
+        }
+
+        assert(success != 0); /// did NOTHING
+        if (success < 0) {
+            assert("Unsuccessful" == nullptr);
+            // failed to fix: too many females!
+        } else {
+        }
+
+    } //  //for (auto iter = hours_to_fix...
+
+    // show_running_totals(running_swaps, running_attempts);
+}
+
 using warned_t
     = my::utils::strings::case_insensitive_unordered_map<std::string_view,
         std::string_view>;
@@ -564,12 +499,36 @@ int pop_items(const gender_map_t& genders_by_artist, int& line_num,
     artists_in_hours_t& artists_in_hours,
     const std::vector<std::string_view>& file_lines, int ihour_for,
     warned_t& warned) {
-
+    int prev_hour_for = 0;
     warned_t warned_defs;
+    bool parsing_etm = false;
+
     for (const auto& line : file_lines) {
 
-        if (line.find('N', 0) == 0) {
+        int my_ihour_for = 0;
+        if (line.find('N', 0) == 0 || parsing_etm) {
             // break notes do not count!
+            // but we don't touch anything beyond an ETM
+            if ((line.find("Exact Time Marker") != std::string::npos)
+                || parsing_etm) {
+
+                std::string stmp;
+                if (line.find('N', 0) == 0) {
+                    stmp = line.substr(2, 2);
+                } else {
+                    stmp = line.substr(0, 2);
+                }
+                if (const int my_int_hour_for
+                    = std::atol(std::string(stmp).c_str());
+                    my_int_hour_for > my_ihour_for) {
+                    parsing_etm = false;
+                } else {
+                    // same etm hour
+                    parsing_etm = true;
+                    line_num++;
+                    continue;
+                }
+            }
         } else {
             static constexpr const auto time_index = 0;
             static constexpr const auto duration_index = 4;
@@ -588,10 +547,17 @@ int pop_items(const gender_map_t& genders_by_artist, int& line_num,
             const auto& sdur = splut_tab[duration_index];
             const auto secs = my::utils::strings::HHMMSSto_secs(sdur);
             const auto& hour_for = splut_tab[time_index];
-            const int my_ihour_for = std::atol(std::string(hour_for).c_str());
+            my_ihour_for = std::atol(std::string(hour_for).c_str());
+            assert(my_ihour_for < 25);
 
+            // evo some playlists have 00::59:59 instead of the right hour
+            if (my_ihour_for < ihour_for) {
+                my_ihour_for = prev_hour_for;
+            }
             if (my_ihour_for != ihour_for) {
+                prev_hour_for = my_ihour_for;
                 artists_in_hours.emplace_back((std::vector<artist_info>()));
+                assert(artists_in_hours.size() <= 24);
                 ihour_for = my_ihour_for;
                 auto& arts_in_hour = artists_in_hours[my_ihour_for];
                 arts_in_hour.reserve(
@@ -759,7 +725,8 @@ bool process() {
     }
 
     std::string tmp_file;
-    if (const auto error = my::utils::file_copy(g_playlist_file, tmp_file);
+    if (const auto error
+        = my::utils::file_copy(g_playlist_file, tmp_file, true);
         error != std::error_code()) {
         cerr << "Unable to make temp copy of " << g_playlist_file << endl;
         cerr << "Error was: " << error << endl;
@@ -863,30 +830,36 @@ int mymain(int argc, char** argv) {
         }
     }
 
-    if (const auto retval = process()) {
+    if ([[maybe_unused]] const auto retval = process()) {
         return 0;
     } else {
         return -10000;
     }
-    return 0;
 }
 
 int main(const int argc, char** argv) {
 
-    auto dir = std::string(my::utils::getcwd());
-    dir += my::utils::PATH_SEP_STR;
-    my::listdir(dir.data(), [&](const auto& entry) {
-        if (my::is_directory(entry)) {
+    try {
+        auto dir = std::string(my::utils::getcwd());
+        dir += my::utils::PATH_SEP_STR;
+        my::listdir(dir.data(), [&](const auto& entry) {
+            if (my::is_directory(entry)) {
 
-        } else {
-            if (std::string_view{entry->d_name}.ends_with(".apl")) {
-                g_playlist_file = std::string(dir);
-                g_playlist_file += std::string(entry->d_name);
-                process();
+            } else {
+                if (std::string_view{entry->d_name}.ends_with(".apl")) {
+                    g_playlist_file = std::string(dir);
+                    g_playlist_file += std::string(entry->d_name);
+                    process();
+                }
             }
-        }
-        return 0;
-    });
+            return 0;
+        });
+    } catch (const std::exception& e) {
+        cerr << "Failed, with exception: " << e.what() << endl;
+        Sleep(4000);
+    }
+
+    return 0;
 
     try {
         const int ret = mymain(argc, argv);

@@ -63,4 +63,108 @@
     <CodeCurrent>3790373240</CodeCurrent>
     <CodeNext>0</CodeNext>
   </APLGender>
+  <APLGender>
+    <FileName>my_utils.hpp</FileName>
+    <ErrorCode>V547</ErrorCode>
+    <Message>Expression 'r == _' is always false.</Message>
+    <CodePrev>125</CodePrev>
+    <CodeCurrent>1026160</CodeCurrent>
+    <CodeNext>3022242233</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>my_utils.hpp</FileName>
+    <ErrorCode>V547</ErrorCode>
+    <Message>Expression 'r == _' is always false.</Message>
+    <CodePrev>1967192942</CodePrev>
+    <CodeCurrent>1026160</CodeCurrent>
+    <CodeNext>3022242233</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>gender.hpp</FileName>
+    <ErrorCode>V557</ErrorCode>
+    <Message>Array overrun is possible. The 'static_cast&lt;int&gt; (g)' index is pointing beyond array bound.</Message>
+    <CodePrev>916055687</CodePrev>
+    <CodeCurrent>2275134831</CodeCurrent>
+    <CodeNext>125</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>gender.hpp</FileName>
+    <ErrorCode>V128</ErrorCode>
+    <Message>The 'me.line_number' variable of the memsize type is written to a stream. Consider verifying the compatibility of _ and _ bit versions of the application in the context of a stored data.</Message>
+    <CodePrev>1947650190</CodePrev>
+    <CodeCurrent>1715399614</CodeCurrent>
+    <CodeNext>4132243296</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>gender.hpp</FileName>
+    <ErrorCode>V128</ErrorCode>
+    <Message>The 'me.line_number_orig' variable of the memsize type is written to a stream. Consider verifying the compatibility of _ and _ bit versions of the application in the context of a stored data.</Message>
+    <CodePrev>1947650190</CodePrev>
+    <CodeCurrent>1715399614</CodeCurrent>
+    <CodeNext>4132243296</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>APLGender.cpp</FileName>
+    <ErrorCode>V783</ErrorCode>
+    <Message>Dereferencing of the invalid iterator '++ two_females' might take place.</Message>
+    <CodePrev>2414614772</CodePrev>
+    <CodeCurrent>191083603</CodeCurrent>
+    <CodeNext>372441</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>APLGender.cpp</FileName>
+    <ErrorCode>V656</ErrorCode>
+    <Message>Variables 'two_males', 'search_pos' are initialized through the call to the same function. It's probably an error or un-optimized code. Consider inspecting the 'this_hours_cuts.begin()' expression. Check lines: _, _.</Message>
+    <CodePrev>4140400959</CodePrev>
+    <CodeCurrent>4274618565</CodeCurrent>
+    <CodeNext>17733</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>APLGender.cpp</FileName>
+    <ErrorCode>V808</ErrorCode>
+    <Message>'my_playlist_file' object of 'basic_string' type was created but was not utilized.</Message>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>1146977049</CodeCurrent>
+    <CodeNext>2083808578</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>APLGender.cpp</FileName>
+    <ErrorCode>V101</ErrorCode>
+    <Message>Implicit assignment type conversion to memsize type.</Message>
+    <CodePrev>874534396</CodePrev>
+    <CodeCurrent>1898595763</CodeCurrent>
+    <CodeNext>1283691676</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>APLGender.cpp</FileName>
+    <ErrorCode>V826</ErrorCode>
+    <Message>Consider replacing the 'file_lines' std::vector with std::deque. Overall efficiency of operations will increase.</Message>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>3930593161</CodeCurrent>
+    <CodeNext>1033260099</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>my_utils.hpp</FileName>
+    <ErrorCode>V547</ErrorCode>
+    <Message>Expression '!owrite_check' is always false.</Message>
+    <CodePrev>125</CodePrev>
+    <CodeCurrent>526134270</CodeCurrent>
+    <CodeNext>3764396668</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>my_utils.hpp</FileName>
+    <ErrorCode>V547</ErrorCode>
+    <Message>Expression '"limit reached" == nullptr' is always false.</Message>
+    <CodePrev>4092367796</CodePrev>
+    <CodeCurrent>1737734439</CodeCurrent>
+    <CodeNext>1634268330</CodeNext>
+  </APLGender>
+  <APLGender>
+    <FileName>my_utils.hpp</FileName>
+    <ErrorCode>V547</ErrorCode>
+    <Message>Expression 'argc &gt; _' is always false.</Message>
+    <CodePrev>655568695</CodePrev>
+    <CodeCurrent>2137322870</CodeCurrent>
+    <CodeNext>0</CodeNext>
+  </APLGender>
 </NewDataSet>
