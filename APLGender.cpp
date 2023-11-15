@@ -21,7 +21,7 @@ using namespace std;
 
 std::string g_playlist_file;
 std::string g_gender_file{"ArtistsGENDER.txt"};
-bool g_verbose = false;
+bool g_verbose = true;
 
 std::string now() {
     const time_t t = time(nullptr);
@@ -208,13 +208,7 @@ auto find_adjacent_females(
     std::vector<artist_info>& hour_cuts, const hour_cuts_iterator& where) {
     return std::adjacent_find(
         where, hour_cuts.end(), [](const auto& cut1, const auto& cut2) {
-            return (cut2.gender <= gender_t::female) // must be <= to account
-                                                     // for assume_female
-                && (cut1.gender <= gender_t::female)
-                && (cut1.dur > limits::jingle_ad_len
-                    && cut1.dur < limits::max_song_len)
-                && (cut2.dur > limits::jingle_ad_len
-                    && cut2.dur < limits::max_song_len);
+            return cut1.is_female_song() && cut2.is_female_song();
         });
 }
 
@@ -352,7 +346,7 @@ void decide_accept_mf_as_male(
     info = inf;
     if (n_males < n_females) {
         n_males = std::count_if(items.begin(), items.end(),
-            [](const auto& a) { return a.contains_male(); });
+            [](const auto& a) { return a.is_male(); });
         if (n_males > inf.males) {
             info.males = static_cast<int>(n_males);
             info.accept_as_male = gender_t::male_female;
@@ -374,20 +368,21 @@ auto is_fixable_hour(artists_in_hours_t::value_type& hour, const int ihour) {
         return hour.end();
     }
     const auto found = find_adjacent_females(hour, hour.begin());
+    // code below double_checks the find_adjacent does the right thing.
 #ifndef NDEBUG
     artist_info prev;
 
     for (const auto& item : hour) {
 
-        if (prev.is_female() && item.is_female() && prev.is_song()
-            && item.is_song()) {
+        if (prev.is_female_song() && item.is_female_song()) {
             if (!prev.is_empty()) {
                 if (g_verbose) {
                     cout << "Found two non-males in " << ihour << " @\n"
                          << prev << "\n"
                          << item << endl;
                 }
-                assert(*found == prev);
+                if (found != hour.end()) assert(*found == prev);
+
                 return found; // good enough
             }
         }
@@ -438,10 +433,9 @@ void reorder_cuts_in_hours(sv_vector_t& file_lines,
                         // clash to the end of the hour and hope it's back timed
                         // away.
                         // ReSharper disable once CppTooWideScopeInitStatement
-                        auto last_male = std::find_if(
-                            items.rbegin(), items.rend(), [](const auto& info) {
-                                return info.contains_male();
-                            });
+                        auto last_male = std::find_if(items.rbegin(),
+                            items.rend(),
+                            [](const auto& info) { return info.is_male(); });
                         if (last_male != items.rend()) {
                             checked_swap(file_lines, *last_male, *fems,
                                 hour_info.hour_for);
@@ -694,7 +688,7 @@ bool process() {
         cerr << "Cannot continue, playlist file path: " << g_playlist_file
              << " does not exist. "
              << "\nNOTE: working directory is:\n"
-             << my::utils::getcwd() << my::utils::getcwd() << endl;
+             << my::utils::get_cwd() << my::utils::get_cwd() << endl;
         Sleep(3000);
         exit(-7777);
     }
@@ -703,7 +697,7 @@ bool process() {
         cerr << "Cannot continue, gender file path: " << g_gender_file
              << " does not exist. "
              << "\nNOTE: working directory is:\n"
-             << my::utils::getcwd() << my::utils::getcwd() << endl;
+             << my::utils::get_cwd() << my::utils::get_cwd() << endl;
         Sleep(3000);
         exit(-7777);
     }
@@ -725,11 +719,11 @@ bool process() {
     }
 
     std::string tmp_file;
-    if (const auto error
-        = my::utils::file_copy(g_playlist_file, tmp_file, true);
-        error != std::error_code()) {
+
+    if (tmp_file = my::utils::file_copy(g_playlist_file, ".orig");
+        tmp_file.empty()) {
         cerr << "Unable to make temp copy of " << g_playlist_file << endl;
-        cerr << "Error was: " << error << endl;
+        cerr << "Error was: " << tmp_file << endl;
         return false;
     }
     assert(!tmp_file.empty());
@@ -805,6 +799,8 @@ bool process() {
                  << "To: " << g_playlist_file << endl;
             exit(-10000);
         }
+
+        assert(!my::utils::file_exists(tmp_name.c_str()));
     }
 
     return true;
@@ -839,10 +835,11 @@ int mymain(int argc, char** argv) {
 
 int main(const int argc, char** argv) {
 
+    /*/
     try {
-        auto dir = std::string(my::utils::getcwd());
-        dir += my::utils::PATH_SEP_STR;
-        my::listdir(dir.data(), [&](const auto& entry) {
+        auto dir = std::string(my::utils::get_cwd());
+        dir += my::utils::strings::compare_less_nocase(
+            my::listdir(dir.data(), [&](const auto& entry) {
             if (my::is_directory(entry)) {
 
             } else {
@@ -853,13 +850,36 @@ int main(const int argc, char** argv) {
                 }
             }
             return 0;
-        });
+            })
     } catch (const std::exception& e) {
         cerr << "Failed, with exception: " << e.what() << endl;
         Sleep(4000);
     }
 
     return 0;
+
+    try {
+        const int ret = mymain(argc, argv);
+        return ret;
+    } catch (const std::exception& e) {
+        cerr << e.what() << endl;
+        Sleep(10000);
+    }
+    /*/
+    auto dir = std::string(my::utils::get_cwd());
+    dir += my::utils::strings::PATH_SEP;
+    my::listdir(dir.data(), [&](const auto& entry) {
+        if (my::is_directory(entry)) {
+
+        } else {
+            if (std::string_view{entry->d_name}.ends_with(".apl")) {
+                g_playlist_file = std::string(dir);
+                g_playlist_file += std::string(entry->d_name);
+                process();
+            }
+        }
+        return 0;
+    });
 
     try {
         const int ret = mymain(argc, argv);
